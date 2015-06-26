@@ -1,0 +1,155 @@
+@font-face {
+	font-family:'gotham_htfbold';
+	src:url('../fonts/gothamhtf-bold-webfont.eot');
+	src:url('../fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gothamhtf-bold-webfont.woff2') format('woff2'),
+		url('../fonts/gothamhtf-bold-webfont.woff') format('woff'),
+		url('../fonts/gothamhtf-bold-webfont.ttf') format('truetype'),
+		url('../fonts/gothamhtf-bold-webfont.svg#gotham_htfbold') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+body {
+	
+}
+p {
+	margin-bottom:0
+}
+.no-gutter > [class*='col-'] {
+	padding-right:0;
+	padding-left:0
+}
+.separador {
+	height:20%
+}
+.navbar {
+	z-index:11
+}
+.navbar-brand span {
+	color:#e71b81
+}
+#bajar, #subir {
+	height:33px;
+	left:50%;
+	margin-left:-30px;
+	position:absolute;
+	width:58px;
+	z-index:10
+}
+#bajar {
+	bottom:50px
+}
+#subir {
+	top:28px
+}
+#subir img {
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Chrome, Safari, Opera */
+	transform:rotate(180deg);
+}
+.barra-menu {
+	position:absolute;
+	top:30px;
+	right:3%
+}
+.barra-menu a {
+	color:#000;
+	font-size:17px;
+	font-family:'gotham_htfbold';
+	margin-left:12px
+}
+footer {
+	background-color:#000;
+	height:42px;
+	position:fixed;
+	bottom:0;
+	width:100%
+}
+footer p {
+	line-height:40px
+}
+.landing {
+	background-color:#f9e52e;
+	background-image:url('../img/landing-zapatilla.jpg');
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover
+}
+.home .contenido {
+	border:15px solid #f9e52e;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.home .menu {
+	bottom:25px;
+	position:absolute;
+	width:100%
+}
+.campana {
+	background-image:url('../img/fondo-campana.jpg');
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+.relleno-top,
+.relleno-bottom {
+	height:80px
+}
+div.calendario {
+	
+}
+td.calendario {
+	position:relative
+}
+td.calendario img {
+	border:5px solid #fff;
+	padding:2px 12px
+}
+td.calendario:hover img {
+	border:5px solid #f9e52e
+}
+td.calendario .ayuda {
+	border:none!important;
+	position:absolute;
+	left:13%;
+	top:63%
+}
+td.calendario .ayuda.izquierda {
+	left:auto;
+	right:0
+}
+.look.vacio {
+	margin-top:50%
+}
+.look.zapatilla {
+	margin-top:5%
+}
+
+@media (max-width:767px) {
+	#bajar, #subir {
+		height:14px;
+		left:50%;
+		margin-left:-13px;
+		position:absolute;
+		width:24px;
+		z-index:10
+	}
+	#subir {
+		top:52px
+	}
+	.home .contenido {
+		border:none;
+		position:static;
+		bottom:auto
+	}
+	.campana {
+		background-image:url('../img/fondo-campana-mobile.jpg')
+	}
+	.ayuda {
+		display:none!important
+	}
+}
