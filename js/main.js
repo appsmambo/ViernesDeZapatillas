@@ -81,6 +81,7 @@ $(document).ready(function() {
 		$('.look').removeClass('vacio').html(html);
 		return false;
 	});
+	$('.youtube').colorbox({iframe:true, width:"70%", height:"68%"});
 });
 $(window).load(function(){  
 	actualizarAlto(30);

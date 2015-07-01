@@ -8,6 +8,7 @@
 		<link href="{{url()}}/css/animate.css" rel="stylesheet">
 		<link href="{{url()}}/css/bootstrap.min.css" rel="stylesheet">
 		<link href="{{url()}}/css/jquery.fullPage.css" rel="stylesheet">
+		<link href="{{url()}}/css/colorbox.css" rel="stylesheet">
 		<link href="{{url()}}/css/main.css" rel="stylesheet">
 		<script src="{{url()}}/js/queryloader2.min.js"></script>
 		<script type="text/javascript">
@@ -35,6 +36,7 @@
 		<script src="{{url()}}/js/jquery.slimscroll.min.js"></script>
 		<script src="{{url()}}/js/jquery.fullPage.min.js"></script>
 		<script src="{{url()}}/js/isotope.pkgd.min.js"></script>
+		<script src="{{url()}}/js/jquery.colorbox-min.js"></script>
 		<script src="{{url()}}/js/main.js"></script>
 	</head>
 	<body>
@@ -53,7 +55,7 @@
 					<ul class="nav navbar-nav">
 						<li><a href="#landing">Landing</a></li>
 						<li><a href="#home">Home</a></li>
-						<li><a href="#campana">Campaña</a></li>
+						<li><a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">Campaña</a></li>
 						<li><a href="#calendario">Calendario</a></li>
 						<li><a href="#top5">top5</a></li>
 						<li><a href="#lookbook">Lookbook</a></li>
@@ -112,16 +114,24 @@
 				<div class="menu hidden-xs">
 					<div class="row no-gutter">
 						<div class="col-sm-3">
-							<img src="{{url()}}/img/menu-campana.jpg" alt="" class="center-block img-responsive">
+							<a href="http://www.youtube.com/embed/{{$videoCampana}}?rel=0&amp;wmode=transparent" class="youtube">
+								<img src="{{url()}}/img/menu-campana.jpg" alt="" class="center-block img-responsive">
+							</a>
 						</div>
 						<div class="col-sm-3">
-							<img src="{{url()}}/img/menu-calendario.jpg" alt="" class="center-block img-responsive">
+							<a href="#calendario">
+								<img src="{{url()}}/img/menu-calendario.jpg" alt="" class="center-block img-responsive">
+							</a>
 						</div>
 						<div class="col-sm-3">
-							<img src="{{url()}}/img/menu-top5.jpg" alt="" class="center-block img-responsive">
+							<a href="#top5">
+								<img src="{{url()}}/img/menu-top5.jpg" alt="" class="center-block img-responsive">
+							</a>
 						</div>
 						<div class="col-sm-3">
-							<img src="{{url()}}/img/menu-lookbook.jpg" alt="" class="center-block img-responsive">
+							<a href="#lookbook">
+								<img src="{{url()}}/img/menu-lookbook.jpg" alt="" class="center-block img-responsive">
+							</a>
 						</div>
 					</div>
 				</div>
