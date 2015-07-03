@@ -115,18 +115,50 @@ td.calendario:hover img {
 td.calendario .ayuda {
 	border:none!important;
 	position:absolute;
-	left:13%;
-	top:63%
+	left:50%;
+	bottom:0;
+	margin-left:-41px;
+	padding:0
 }
-td.calendario .ayuda.izquierda {
-	left:auto;
-	right:0
+.cerrar {
+	cursor:pointer;
+	margin-left:65%
 }
 .look.vacio {
 	margin-top:50%
 }
 .look.zapatilla {
 	margin-top:5%
+}
+.scroll-pane {
+	width:100%;
+	height:564px;
+	overflow:auto
+}
+.lookbook {
+	background-color:#009fe3
+}
+.lookbook .container {
+	margin-top:25px
+}
+.lookbook .container,
+.lookbook .container .row {
+	max-width:1132px
+}
+.lookbook-prenda {
+	cursor:pointer
+}
+.grid-item {
+	margin:6px
+}
+.top5 {
+	background:linear-gradient(180deg, white 80%, #f8db1b 20%)
+}
+.top5 .container {
+	margin-top:25px
+}
+.top5 .container-fluid {
+	background-color:#f8db1b
 }
 
 @media (max-width:767px) {
@@ -151,5 +183,15 @@ td.calendario .ayuda.izquierda {
 	}
 	.ayuda {
 		display:none!important
+	}
+}
+@media (min-width:1200px) {
+	.top5 .container {
+		width:1250px;
+	}
+}
+@media (min-width:1450px) {
+	.top5 .container {
+		width:1500px;
 	}
 }

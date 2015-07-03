@@ -1,11 +1,14 @@
-var altoTotal, altoMenu, altoFooter;
+var altoTotal, altoMenu, altoFooter, api, pane, flagCalendario;
+var $grid;
 function actualizarAlto(alto) {
 	altoMenu = $('.menu img').height();
 	altoFooter = $('footer').height();
 	altoTotal = $(window).height() - (altoFooter + altoMenu + alto);
 	$('.home .contenido').height(altoTotal);
+	api.reinitialise();
 }
 $(document).ready(function() {
+	flagCalendario = false;
 	$(window).resize(function() {
 		actualizarAlto(15);
 	});
@@ -55,6 +58,7 @@ $(document).ready(function() {
 		},
 		afterLoad:function(anchorLink, index){
 			if (index === 1) {
+				$('#bajar').attr('href', '#home');
 				$('.barra-menu, #subir').fadeOut('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
 			} else if (index === 6) {
@@ -68,6 +72,7 @@ $(document).ready(function() {
 	});
 	$('td.calendario')
 	.mouseenter(function() {
+		if (flagCalendario) return;
 		var dia = $('a', this).data('dia');
 		$('.ayuda', this).fadeIn('fast');
 		$('.zapatilla img').attr('src', urlBase + '/img/zapatillas/zapatilla-' + dia + '.jpg')
@@ -77,11 +82,42 @@ $(document).ready(function() {
 	});
 	$('td.calendario a').click(function() {
 		var dia = $(this).data('dia'), html;
-		html = '<img src="' + urlBase + '/img/zapatillas/look-' + dia + '.jpg" alt="" class="center-block img-responsive">';
+		html = '<img src="' + urlBase + '/img/cerrar.jpg" alt="" class="cerrar"><br>';
+		html += '<img src="' + urlBase + '/img/zapatillas/look-' + dia + '.jpg" alt="" class="center-block img-responsive">';
 		$('.look').removeClass('vacio').html(html);
+		flagCalendario = true;
 		return false;
 	});
+	$('.look').on('click', '.cerrar', function () {
+		$('.look').addClass('vacio').html('');
+		flagCalendario = false;
+		return false;
+	});
+	$('.lookbook-prenda').click(function() {
+		var imagen = $(this).attr('src');
+		var color = $(this).data('color');
+		
+	});
 	$('.youtube').colorbox({iframe:true, width:"70%", height:"68%"});
+	$('.scroll-pane').jScrollPane();
+	pane = $('.scroll-pane');
+	api = pane.data('jsp');
+	$grid = $('.grid').isotope({
+		itemSelector:'.grid-item',
+		layoutMode:'fitRows'
+	});
+	$('.ver-todas').click(function() {
+		$grid.isotope({filter:'*'});
+		return false;
+	});
+	$('.ver-twitter').click(function() {
+		$grid.isotope({filter:'.twitter'});
+		return false;
+	});
+	$('.ver-instagram').click(function() {
+		$grid.isotope({filter:'.instagram'});
+		return false;
+	});
 });
 $(window).load(function(){  
 	actualizarAlto(30);
