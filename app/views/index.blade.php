@@ -505,44 +505,71 @@
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
 						<img src="{{url()}}/img/top5.png" alt="" class="center-block img-responsive">
+						<br>
 					</div>
 				</div>
-				<div class="container">
-					<div class="row no-gutter">
-						<div class="col-sm-2 col-sm-offset-1">
-							<img src="{{url()}}/img/top5-prenda1.jpg" alt="" class="img-responsive center-block">
-						</div>
-						<div class="col-sm-2">
-							<img src="{{url()}}/img/top5-prenda2.jpg" alt="" class="img-responsive center-block">
-						</div>
-						<div class="col-sm-2">
-							<img src="{{url()}}/img/top5-prenda3.jpg" alt="" class="img-responsive center-block">
-						</div>
-						<div class="col-sm-2">
-							<img src="{{url()}}/img/top5-prenda4.jpg" alt="" class="img-responsive center-block">
-						</div>
-						<div class="col-sm-2">
-							<img src="{{url()}}/img/top5-prenda5.jpg" alt="" class="img-responsive center-block">
+				<div class="container-fluid blanco">
+					<div class="container">
+						<div class="row no-gutter">
+							<div id="top5-col-1" class="col-sm-2 col-sm-offset-1">
+								<a href="#" class="top5-prenda" data-prenda="1">
+									<img src="{{url()}}/img/top5/01.jpg" alt="" class="img-responsive center-block">
+								</a>
+							</div>
+							<div id="top5-col-2" class="col-sm-2">
+								<a href="#" class="top5-prenda" data-prenda="2">
+									<img src="{{url()}}/img/top5/02.jpg" alt="" class="img-responsive center-block">
+								</a>
+							</div>
+							<div id="top5-col-3" class="col-sm-2">
+								<a href="#" class="top5-prenda" data-prenda="3">
+									<img src="{{url()}}/img/top5/03.jpg" alt="" class="img-responsive center-block">
+								</a>
+							</div>
+							<div id="top5-col-4" class="col-sm-2">
+								<a href="#" class="top5-prenda" data-prenda="4">
+									<img src="{{url()}}/img/top5/04.jpg" alt="" class="img-responsive center-block">
+								</a>
+							</div>
+							<div id="top5-col-5" class="col-sm-2">
+								<a href="#" class="top5-prenda" data-prenda="5">
+									<img src="{{url()}}/img/top5/05.jpg" alt="" class="img-responsive center-block">
+								</a>
+							</div>
+							<div id="top5-col-6" class="col-sm-9" style="display:none">
+								<img src="{{url()}}/img/cerrar-top5.jpg" alt="" class="cerrar-top5">
+								<div></div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="container-fluid">
+				<div class="container-fluid amarillo">
 					<div class="container">
 						<div class="row no-gutter">
 							<div class="col-sm-2 col-sm-offset-1">
-								<img src="{{url()}}/img/top5-1.jpg" alt="" class="img-responsive center-block">
+								<a href="#" class="top5-prenda" data-prenda="1">
+									<img id="top5-1" src="{{url()}}/img/top5-1.png" alt="" class="top5-numero img-responsive center-block">
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<img src="{{url()}}/img/top5-2.jpg" alt="" class="img-responsive center-block">
+								<a href="#" class="top5-prenda" data-prenda="2">
+									<img id="top5-2" src="{{url()}}/img/top5-2.png" alt="" class="top5-numero img-responsive center-block">
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<img src="{{url()}}/img/top5-3.jpg" alt="" class="img-responsive center-block">
+								<a href="#" class="top5-prenda" data-prenda="3">
+									<img id="top5-3" src="{{url()}}/img/top5-3.png" alt="" class="top5-numero img-responsive center-block">
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<img src="{{url()}}/img/top5-4.jpg" alt="" class="img-responsive center-block">
+								<a href="#" class="top5-prenda" data-prenda="4">
+									<img id="top5-4" src="{{url()}}/img/top5-4.png" alt="" class="top5-numero img-responsive center-block">
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<img src="{{url()}}/img/top5-5.jpg" alt="" class="img-responsive center-block">
+								<a href="#" class="top5-prenda" data-prenda="5">
+									<img id="top5-5" src="{{url()}}/img/top5-5.png" alt="" class="top5-numero img-responsive center-block">
+								</a>
 							</div>
 						</div>
 					</div>
@@ -716,11 +743,17 @@
 			<img src="{{url()}}/img/zapatillas/look-{{substr('0'.$i, -2)}}.jpg" alt="">
 			<img src="{{url()}}/img/zapatillas/zapatilla-{{substr('0'.$i, -2)}}.jpg" alt="">
 			@endfor
+			<img src="{{url()}}/img/top5/zapatilla-1.jpg" alt="">
+			<img src="{{url()}}/img/top5/zapatilla-2.jpg" alt="">
+			<img src="{{url()}}/img/top5/zapatilla-3.jpg" alt="">
+			<img src="{{url()}}/img/top5/zapatilla-4.jpg" alt="">
+			<img src="{{url()}}/img/top5/zapatilla-5.jpg" alt="">
 			<div id="lookbook-detalle-1" class="lookbook-detalle amarillo">
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/01.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CAT ZAPATILLA MARI CANVAS WALALA 17001556 S/. 299
+					CAT ZAPATILLA MARI CANVAS WALALA<br>
+					17001556 - S/. 299
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/01.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT MARI CANVAS WALALA S/.299 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -737,7 +770,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/02.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CONVERSE ZAPATILLA STAR PLAYER 147460C 16994724 S/. 199
+					CONVERSE ZAPATILLA STAR PLAYER 147460C<br>
+					16994724 - S/. 199
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/02.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE STAR PLAYER S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -754,7 +788,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/03.jpg" alt="" class="img-responsive center-block">
 					<br>
-					ADIDAS ZAPATILLA PLIMCANA 2.0 LOW 16864891 S/. 259
+					ADIDAS ZAPATILLA PLIMCANA 2.0 LOW<br>
+					16864891 - S/. 259
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/03.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS PLIMCANA 2.0 LOW S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -771,7 +806,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/04.jpg" alt="" class="img-responsive center-block">
 					<br>
-					REEBOK ZAPATILLA SKYSCAPE RUNAROUND 2.0 16850633 S/. 199
+					REEBOK ZAPATILLA SKYSCAPE RUNAROUND 2.0<br>
+					16850633 - S/. 199
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/04.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK SKYSCAPE RUNAROUND 2.0 S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -789,7 +825,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/05.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NIKE ZAPATILLA PRIMO COURT MID CVS PRINT 16997187 S/. 259
+					NIKE ZAPATILLA PRIMO COURT MID CVS PRINT<br>
+					16997187 - S/. 259
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/05.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE PRIMO COURT MID CVS PRINT S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -806,7 +843,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/06.jpg" alt="" class="img-responsive center-block">
 					<br>
-					DC ZAPATILLA TROSE TX 16980205 S/. 169
+					DC ZAPATILLA TROSE TX<br>
+					16980205 - S/. 169
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/06.jpg" data-texto="¡Me fascinaron estas zapatillas! DC ZAPATILLA TROSE TX S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -823,7 +861,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/07.jpg" alt="" class="img-responsive center-block">
 					<br>
-					INDEX ZAPATILLA LAURA QUILT 16668962 S/. 69.90
+					INDEX ZAPATILLA LAURA QUILT<br>
+					16668962 - S/. 69.90
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/07.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX LAURA QUILT S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -840,7 +879,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/08.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NEW BALANCE ZAPATILLA WL420DFA 17000538 S/. 239
+					NEW BALANCE ZAPATILLA WL420DFA<br>
+					17000538 - S/. 239
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/08.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE WL420DFA S/.239 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -858,7 +898,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/09.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CAT ZAPATILLA POE BURNISH BRIGHTS 16996497 S/. 379
+					CAT ZAPATILLA POE BURNISH BRIGHTS<br>
+					16996497 - S/. 379
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/09.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT ZAPATILLA POE BURNISH BRIGHTS S/.379 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -875,7 +916,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/10.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547259C 16992986 S/. 199
+					CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547259C<br>
+					16992986 - S/. 199
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/10.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -892,7 +934,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/11.jpg" alt="" class="img-responsive center-block">
 					<br>
-					ADIDAS ZAPATILLA PLIMCANA LOW 16748062 S/. 249
+					ADIDAS ZAPATILLA PLIMCANA LOW<br>
+					16748062 - S/. 249
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/11.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS PLIMCANA LOW S/.249 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -909,7 +952,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/12.jpg" alt="" class="img-responsive center-block">
 					<br>
-					PUMA ZAPATILLA ELSU SL 16995230 S/. 149
+					PUMA ZAPATILLA ELSU SL<br>
+					16995230 - S/. 149
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/12.jpg" data-texto="¡Me fascinaron estas zapatillas! PUMA ZAPATILLA ELSU S/.149 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -927,7 +971,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/13.jpg" alt="" class="img-responsive center-block">
 					<br>
-					REEBOK ZAPATILLA ROYAL COMPLETE 16811802 S/. 169
+					REEBOK ZAPATILLA ROYAL COMPLETE<br>
+					16811802 - S/. 169
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/13.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL COMPLETE S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -944,7 +989,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/14.jpg" alt="" class="img-responsive center-block">
 					<br>
-					DC ZAPATILLA CRISIS 16980150 S/. 259
+					DC ZAPATILLA CRISIS<br>
+					16980150 - S/. 259
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/14.jpg" data-texto="¡Me fascinaron estas zapatillas! DC CRISIS S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -961,7 +1007,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/15.jpg" alt="" class="img-responsive center-block">
 					<br>
-					INDEX ZAPATILLA ARCHIE 16567278 S/. 59.90
+					INDEX ZAPATILLA ARCHIE<br>
+					16567278 - S/. 59.90
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/15.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX ARCHIE S/.59.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -978,7 +1025,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/16.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NEW BALANCE ZAPATILLA ML400SNF 16986608 S/. 159
+					NEW BALANCE ZAPATILLA ML400SNF<br>
+					16986608 - S/. 159
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/16.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE ML400SNF S/.159 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -996,7 +1044,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/17.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CAT ZAPATILLA POE SIMPLY 16996505 S/. 379
+					CAT ZAPATILLA POE SIMPLY<br>
+					16996505 - S/. 379
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/17.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT POE SIMPLY S/.379 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1013,7 +1062,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/18.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547289C 16993011 S/. 189
+					CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547289C<br>
+					16993011 - S/. 189
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/18.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/.189 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1030,7 +1080,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/19.jpg" alt="" class="img-responsive center-block">
 					<br>
-					ADIDAS ZAPATILLA M19480 ADRIA LOW 16964229 S/. 229
+					ADIDAS ZAPATILLA M19480 ADRIA LOW<br>
+					16964229 - S/. 229
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/19.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS ADRIA LOW S/.229 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1047,7 +1098,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/20.jpg" alt="" class="img-responsive center-block">
 					<br>
-					REEBOK ZAPATILLA ROYAL CCJOGGER 16663744 S/. 169
+					REEBOK ZAPATILLA ROYAL CCJOGGER<br>
+					16663744 - S/. 169
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/20.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL CCJOGGER S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1065,7 +1117,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/21.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NIKE ZAPATILLA EASTHAM MID 16997073 S/. 299
+					NIKE ZAPATILLA EASTHAM MID<br>
+					16997073 - S/. 299
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/21.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE EASTHAM MID S/.299 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1082,7 +1135,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/22.jpg" alt="" class="img-responsive center-block">
 					<br>
-					INDEX ZAPATILLA BRUNO 16625172 S/. 79.90
+					INDEX ZAPATILLA BRUNO<br>
+					16625172 - S/. 79.90
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/22.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX BRUNO S/.79.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1099,7 +1153,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/23.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NEW BALANCE ZAPATILLA NBL U410 CC 16979924 S/. 199
+					NEW BALANCE ZAPATILLA NBL U410 CC<br>
+					16979924 - S/. 199
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/23.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE NBL U410 CC S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1116,7 +1171,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/24.jpg" alt="" class="img-responsive center-block">
 					<br>
-					CONVERSE ZAPATILLA STAR PLAYER 147461C 16994733 S/. 199
+					CONVERSE ZAPATILLA STAR PLAYER 147461C<br>
+					16994733 - S/. 199
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/24.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE STAR PLAYER S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1134,7 +1190,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/25.jpg" alt="" class="img-responsive center-block">
 					<br>
-					ADIDAS ZAPATILLA ZX-700 BELOW M19384 16900821 S/. 229
+					ADIDAS ZAPATILLA ZX-700 BELOW M19384<br>
+					16900821 - S/. 229
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/25.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS ZX-700 BELOW S/.229 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1151,7 +1208,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/26.jpg" alt="" class="img-responsive center-block">
 					<br>
-					PUMA ZAPATILLA FTR TF-RACER 357624 05 16991363 S/. 189
+					PUMA ZAPATILLA FTR TF-RACER 357624 05<br>
+					16991363 - S/. 189
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/26.jpg" data-texto="¡Me fascinaron estas zapatillas! PUMA FTR TF-RACER S/.189 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1168,7 +1226,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/27.jpg" alt="" class="img-responsive center-block">
 					<br>
-					REEBOK ZAPATILLA ROYAL JENSTALL M46859 16685797 S/. 129
+					REEBOK ZAPATILLA ROYAL JENSTALL M46859<br>
+					16685797 - S/. 129
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/27.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL JENSTALL S/.129 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1185,7 +1244,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/28.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NIKE ZAPATILLA EASTHAM 16997062 S/. 289
+					NIKE ZAPATILLA EASTHAM<br>
+					16997062 - S/. 289
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/28.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE EASTHAM S/.289 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1203,7 +1263,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/29.jpg" alt="" class="img-responsive center-block">
 					<br>
-					GOTCHA ZAPATILLA GT-1507 16653936 S/. 129
+					GOTCHA ZAPATILLA GT-1507<br>
+					16653936 - S/. 129
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/29.jpg" data-texto="¡Me fascinaron estas zapatillas! GOTCHA GT-1507 S/.129 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
@@ -1220,7 +1281,8 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/30.jpg" alt="" class="img-responsive center-block">
 					<br>
-					INDEX ZAPATILLA NADI 16791638 S/. 69.90
+					INDEX ZAPATILLA NADI<br>
+					16791638 - S/. 69.90
 				</p>
 				<p class="text-center">
 					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/30.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX NADI S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">

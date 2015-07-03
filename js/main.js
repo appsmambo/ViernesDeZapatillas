@@ -1,4 +1,4 @@
-var altoTotal, altoMenu, altoFooter, api, pane, flagCalendario;
+var altoTotal, altoMenu, altoFooter, api, pane, flagCalendario, flagTop5;
 var $grid;
 function actualizarAlto(alto) {
 	altoMenu = $('.menu img').height();
@@ -8,7 +8,7 @@ function actualizarAlto(alto) {
 	api.reinitialise();
 }
 $(document).ready(function() {
-	flagCalendario = false;
+	flagTop5 = flagCalendario = false;
 	$(window).resize(function() {
 		actualizarAlto(15);
 	});
@@ -109,6 +109,33 @@ $(document).ready(function() {
 			caption:'La semana empieza con el #viernesdezapatillas ¡Sigue el movimiento!',
 		}, function(response){});
 		return false;
+	});
+	$('.top5-prenda').click(function() {
+		if (flagTop5) return false;
+		var prenda = parseInt($(this).data('prenda'));
+		var html = '';
+		html = '<img src="' + urlBase + '/img/top5/zapatilla-' + prenda + '.jpg" alt="" class="img-responsive center-block">';
+		$('#top5-col-6 div').html(html);
+		for (i = 1; i <= 6; i++) {
+			if (i === prenda) continue;
+			if (i === 6) {
+				$('#top5-col-6').delay(500).fadeIn('fast');
+			} else {
+				$('#top5-col-'+i).hide('slow');
+				$('#top5-' + i).fadeTo('fast', .3);
+			}
+		}
+		flagTop5 = true;
+		return false;
+	});
+	$('.cerrar-top5').click(function () {
+		$('#top5-col-6').fadeOut('slow', function() {
+			for (i = 1; i <= 5; i++) {
+				$('#top5-col-'+i).show('fast');
+			}
+			$('.top5-numero').fadeTo('fast', 1);
+		});
+		flagTop5 = false;
 	});
 	$('.iframe').colorbox({iframe:true, width:"70%", height:"68%"});
 	$('.scroll-pane').jScrollPane();

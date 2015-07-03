@@ -188,13 +188,22 @@ td.calendario .ayuda {
 	margin:6px
 }
 .top5 {
-	background:linear-gradient(180deg, white 80%, #f8db1b 20%)
+	background:linear-gradient(180deg, white 70%, #f8db1b 30%)
 }
 .top5 .container {
-	margin-top:25px
+	
 }
-.top5 .container-fluid {
+.top5 .blanco {
+	background-color:#fff
+}
+.top5 .amarillo {
 	background-color:#f8db1b
+}
+#top5-col-6 .cerrar-top5 {
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:20px
 }
 
 @media (max-width:767px) {
