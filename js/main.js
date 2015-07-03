@@ -94,11 +94,23 @@ $(document).ready(function() {
 		return false;
 	});
 	$('.lookbook-prenda').click(function() {
-		var imagen = $(this).attr('src');
-		var color = $(this).data('color');
-		
+		var prenda = $(this).data('prenda');
+		var lookbook = '#lookbook-detalle-' + prenda;
+		$.colorbox({href:lookbook,inline:true,innerWidth:283,scrolling:false});
 	});
-	$('.youtube').colorbox({iframe:true, width:"70%", height:"68%"});
+	$('.compartir-facebook').click(function() {
+		var imagen = $(this).data('imagen');
+		var texto = $(this).data('texto');
+		FB.ui({
+			method:'feed',
+			link:urlBase,
+			description:texto,
+			picture:imagen,
+			caption:'La semana empieza con el #viernesdezapatillas ¡Sigue el movimiento!',
+		}, function(response){});
+		return false;
+	});
+	$('.iframe').colorbox({iframe:true, width:"70%", height:"68%"});
 	$('.scroll-pane').jScrollPane();
 	pane = $('.scroll-pane');
 	api = pane.data('jsp');

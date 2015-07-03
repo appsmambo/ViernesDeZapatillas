@@ -2,7 +2,7 @@
 
 class HomeController extends BaseController {
 	
-	private $_video = 'nmUam9NuyEU';
+	private $_video = 'D9lXtYgD21s';
 
 	public function index()
 	{
