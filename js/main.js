@@ -124,11 +124,12 @@ $(document).ready(function() {
 			}
 		},
 		afterLoad:function(anchorLink, index){
+			if (anchorLink === 'landing')
+				setTimeout(function(){$.fn.fullpage.silentMoveTo('home');}, 2500);
 			if (index === 1) {
 				$('#bajar').attr('href', '#home');
 				$('.barra-menu, #subir').fadeOut('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
-				setTimeout(function(){$.fn.fullpage.silentMoveTo('home');}, 2500);
 			} else if (index === 6) {
 				$('.barra-menu, #subir').fadeIn('fast');
 				$('#bajar').fadeOut('fast');
@@ -156,7 +157,7 @@ $(document).ready(function() {
 		$('.look').removeClass('vacio').html(html);
 		$('.zapatilla img').attr('src', urlBase + '/img/zapatillas/zapatilla-' + dia + '.jpg')
 		$('p.compartir').fadeIn();
-		$('p.compartir .compartir-facebook').data('imagen', urlBase + '/img/calendario/' + dia + '.jpg').data('texto', fb[indice]);
+		$('p.compartir .compartir-facebook').data('imagen', urlBase + '/img/zapatillas/zapatilla-' + dia + '.jpg').data('texto', fb[indice]);
 		$('p.compartir .compartir-twitter').attr('href', tw[indice]);
 		flagCalendario = true;
 		return false;
@@ -238,4 +239,7 @@ $(window).load(function(){
 		itemSelector:'.grid-item',
 		layoutMode:'fitRows'
 	});
+	if (calendario === '1') {
+		$.fn.fullpage.silentMoveTo('calendario');
+	}
 });
