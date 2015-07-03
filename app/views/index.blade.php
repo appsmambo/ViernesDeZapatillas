@@ -20,7 +20,7 @@
 		<link href="{{url()}}/css/jquery.jscrollpane.css" rel="stylesheet">
 		<link href="{{url()}}/css/jquery.fullPage.css" rel="stylesheet">
 		<link href="{{url()}}/css/colorbox.css" rel="stylesheet">
-		<link href="{{url()}}/css/main.css" rel="stylesheet">
+		<link href="{{url()}}/css/main.css?v=123" rel="stylesheet">
 		<script src="{{url()}}/js/queryloader2.min.js"></script>
 		<script type="text/javascript">
 			var urlBase = '{{url()}}';
@@ -51,7 +51,7 @@
 		<script src="{{url()}}/js/jquery.colorbox-min.js"></script>
 		<script src="{{url()}}/js/jquery.mousewheel.js"></script>
 		<script src="{{url()}}/js/jquery.jscrollpane.min.js"></script>
-		<script src="{{url()}}/js/main.js"></script>
+		<script src="{{url()}}/js/main.js?v=123"></script>
 	</head>
 	<body>
 		<script>
@@ -179,7 +179,7 @@
 							<br><br>
 						</p>
 						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
+							<div class="col-sm-8 col-sm-offset-2" style="background-color:#fff">
 								<div class="row">
 									<div class="col-xs-6">
 										<a href="#" class="ver-todas">
@@ -199,49 +199,28 @@
 									</div>
 								</div>
 								<div id="resultados" class="grid">
+									@foreach ($instagram as $image)
 									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/01.jpg" alt="">
+										<img src="{{$image}}" alt="">
 									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/02.jpg" alt="">
-									</div>
+									@endforeach
+									@foreach ($instagram as $image)
 									<div class="grid-item instagram">
-										<img src="{{url()}}/img/campana/03.jpg" alt="">
+										<img src="{{$image}}" alt="">
 									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/04.jpg" alt="">
-									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/05.jpg" alt="">
-									</div>
-									<div class="grid-item instagram">
-										<img src="{{url()}}/img/campana/06.jpg" alt="">
-									</div>
-									<div class="grid-item instagram">
-										<img src="{{url()}}/img/campana/07.jpg" alt="">
-									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/08.jpg" alt="">
-									</div>
-									<div class="grid-item instagram">
-										<img src="{{url()}}/img/campana/09.jpg" alt="">
-									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/10.jpg" alt="">
-									</div>
-									<div class="grid-item twitter">
-										<img src="{{url()}}/img/campana/11.jpg" alt="">
-									</div>
-									<div class="grid-item instagram">
-										<img src="{{url()}}/img/campana/12.jpg" alt="">
-									</div>
+									@endforeach
 								</div>
-								<p class="text-center">
+								<p>
+									<br>
+									&nbsp;
+									<br>
+								</p>
+								<!--p class="text-center">
 									<a href="#">
 										<img src="{{url()}}/img/cargar-mas-fotos.jpg" alt="" class="center-block hidden-xs">
 										<img src="{{url()}}/img/cargar-mas-fotos-mobile.jpg" alt="" class="center-block visible-xs">
 									</a>
-								</p>
+								</p-->
 							</div>
 						</div>
 					</div>
@@ -252,10 +231,14 @@
 			<div class="section calendario">
 				<p class="relleno-top">&nbsp;</p>
 				<div class="row">
-					<div class="hidden-xs col-sm-3">
-						<img src="{{url()}}/img/calendario.jpg" alt="" class="center-block img-responsive" style="margin-top:30%">
+					<div class="hidden-xs col-sm-3 col-lg-2">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1">
+								<img src="{{url()}}/img/calendario.jpg" alt="" class="center-block img-responsive" style="margin-top:30%">
+							</div>
+						</div>
 					</div>
-					<div class="col-xs-9 col-sm-6">
+					<div class="col-xs-9 col-sm-7 col-lg-8">
 						<div class="table-responsive">
 							<table class="table table-bordered">
 								<tr>
@@ -480,7 +463,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-xs-3">
+					<div class="col-xs-3 col-sm-2 col-lg-2">
 						<p class="look vacio">
 							&nbsp;
 						</p>
@@ -488,10 +471,14 @@
 							<img src="{{url()}}/img/zapatillas/zapatilla-01.jpg" alt="" class="center-block img-responsive">
 							<br>
 						</p>
-						<p class="compartir text-center">
-							<img src="{{url()}}/img/compartir-facebook.png" alt="">
+						<p class="compartir text-center" style="display:none">
+							<a href="#" class="compartir-facebook" data-imagen="" data-texto="">
+								<img src="{{url()}}/img/compartir-facebook.png" alt="">
+							</a>
 							&nbsp;
-							<img src="{{url()}}/img/compartir-twitter.png" alt="">
+							<a href="#" class="compartir-twitter" target="_blank">
+								<img src="{{url()}}/img/compartir-twitter.png" alt="">
+							</a>
 							<br><br>
 							<img src="{{url()}}/img/comparte.png" alt="">
 						</p>
@@ -537,7 +524,7 @@
 								</a>
 							</div>
 							<div id="top5-col-6" class="col-sm-9" style="display:none">
-								<img src="{{url()}}/img/cerrar-top5.jpg" alt="" class="cerrar-top5">
+								<img src="{{url()}}/img/cerrar-top5.jpg" alt="" class="cerrar-top5" data-prenda="">
 								<div></div>
 							</div>
 						</div>
@@ -547,29 +534,29 @@
 					<div class="container">
 						<div class="row no-gutter">
 							<div class="col-sm-2 col-sm-offset-1">
-								<a href="#" class="top5-prenda" data-prenda="1">
+								<!--a href="#" class="top5-prenda" data-prenda="1"-->
 									<img id="top5-1" src="{{url()}}/img/top5-1.png" alt="" class="top5-numero img-responsive center-block">
-								</a>
+								<!--/a-->
 							</div>
 							<div class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="2">
+								<!--a href="#" class="top5-prenda" data-prenda="2"-->
 									<img id="top5-2" src="{{url()}}/img/top5-2.png" alt="" class="top5-numero img-responsive center-block">
-								</a>
+								<!--/a-->
 							</div>
 							<div class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="3">
+								<!--a href="#" class="top5-prenda" data-prenda="3"-->
 									<img id="top5-3" src="{{url()}}/img/top5-3.png" alt="" class="top5-numero img-responsive center-block">
-								</a>
+								<!--/a-->
 							</div>
 							<div class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="4">
+								<!--a href="#" class="top5-prenda" data-prenda="4"-->
 									<img id="top5-4" src="{{url()}}/img/top5-4.png" alt="" class="top5-numero img-responsive center-block">
-								</a>
+								<!--/a-->
 							</div>
 							<div class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="5">
+								<!--a href="#" class="top5-prenda" data-prenda="5"-->
 									<img id="top5-5" src="{{url()}}/img/top5-5.png" alt="" class="top5-numero img-responsive center-block">
-								</a>
+								<!--/a-->
 							</div>
 						</div>
 					</div>
@@ -748,6 +735,11 @@
 			<img src="{{url()}}/img/top5/zapatilla-3.jpg" alt="">
 			<img src="{{url()}}/img/top5/zapatilla-4.jpg" alt="">
 			<img src="{{url()}}/img/top5/zapatilla-5.jpg" alt="">
+			<img src="{{url()}}/img/top5/01.jpg" alt="">
+			<img src="{{url()}}/img/top5/02.jpg" alt="">
+			<img src="{{url()}}/img/top5/03.jpg" alt="">
+			<img src="{{url()}}/img/top5/04.jpg" alt="">
+			<img src="{{url()}}/img/top5/05.jpg" alt="">
 			<div id="lookbook-detalle-1" class="lookbook-detalle amarillo">
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/01.jpg" alt="" class="img-responsive center-block">
