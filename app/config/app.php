@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Thujohn\Twitter\TwitterServiceProvider',
+		'Jenssegers\Agent\AgentServiceProvider',
 
 	),
 
@@ -190,6 +191,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 		'Twitter' => 'Thujohn\Twitter\Facades\Twitter',
+		'Agent' => 'Jenssegers\Agent\Facades\Agent',
 
 	),
 
