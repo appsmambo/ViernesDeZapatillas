@@ -1,0 +1,264 @@
+@font-face {
+	font-family:'gotham_htfbold';
+	src:url('../fonts/gothamhtf-bold-webfont.eot');
+	src:url('../fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gothamhtf-bold-webfont.woff2') format('woff2'),
+		url('../fonts/gothamhtf-bold-webfont.woff') format('woff'),
+		url('../fonts/gothamhtf-bold-webfont.ttf') format('truetype'),
+		url('../fonts/gothamhtf-bold-webfont.svg#gotham_htfbold') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'brandon_grotesquebold';
+	src:url('../fonts/brandon_bld1-webfont.eot');
+	src:url('../fonts/brandon_bld1-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon_bld1-webfont.woff2') format('woff2'),
+		url('../fonts/brandon_bld1-webfont.woff') format('woff'),
+		url('../fonts/brandon_bld1-webfont.ttf') format('truetype'),
+		url('../fonts/brandon_bld1-webfont.svg#brandon_grotesquebold') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+body {
+	
+}
+p {
+	margin-bottom:0
+}
+.no-gutter > [class*='col-'] {
+	padding-right:0;
+	padding-left:0
+}
+hr.separador {
+	border:1px solid #333;
+	height:0
+}
+.separador {
+	height:20%
+}
+.navbar {
+	z-index:11
+}
+.navbar-brand span {
+	color:#e71b81
+}
+#bajar, #subir {
+	height:33px;
+	left:50%;
+	margin-left:-30px;
+	position:absolute;
+	width:58px;
+	z-index:10
+}
+#bajar {
+	bottom:50px
+}
+#subir {
+	top:28px
+}
+#subir img {
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Chrome, Safari, Opera */
+	transform:rotate(180deg);
+}
+.barra-menu {
+	position:absolute;
+	top:30px;
+	right:3%
+}
+.barra-menu a {
+	color:#000;
+	font-size:17px;
+	font-family:'gotham_htfbold';
+	margin-left:12px
+}
+footer {
+	background-color:#000;
+	height:42px;
+	position:fixed;
+	bottom:0;
+	width:100%
+}
+footer p {
+	line-height:40px
+}
+.landing {
+	background-color:#f9e52e;
+	background-image:url('../img/landing-zapatilla.jpg');
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover
+}
+.home .contenido {
+	border:15px solid #f9e52e;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.home .menu {
+	bottom:25px;
+	position:absolute;
+	width:100%
+}
+.campana {
+	background-image:url('../img/fondo-campana.jpg');
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+.relleno-top,
+.relleno-bottom {
+	height:80px
+}
+div.calendario {
+	
+}
+td.calendario {
+	position:relative
+}
+td.calendario img {
+	border:5px solid #fff;
+	padding:2px 12px
+}
+td.calendario:hover img {
+	border:5px solid #f9e52e
+}
+td.calendario .ayuda {
+	border:none!important;
+	position:absolute;
+	left:50%;
+	bottom:0;
+	margin-left:-41px;
+	padding:0
+}
+.cerrar {
+	cursor:pointer;
+	margin-left:65%
+}
+.look.vacio {
+	margin-top:50%
+}
+.look.zapatilla {
+	margin-top:5%
+}
+.scroll-pane {
+	width:100%;
+	height:564px;
+	overflow:auto
+}
+.lookbook {
+	background-color:#009fe3
+}
+.lookbook .container {
+	margin-top:25px
+}
+.lookbook .container,
+.lookbook .container .row {
+	max-width:1132px
+}
+.lookbook-prenda {
+	cursor:pointer;
+	opacity:1;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+	-webkit-transition:opacity .25s ease-in-out
+}
+.lookbook-prenda:hover {
+	opacity:.75
+}
+.lookbook-detalle {
+	background-color:#fff;
+	color:#000;
+	font-family:'brandon_grotesquebold';
+	font-size:15px;
+	width:283px
+}
+.lookbook-detalle p {
+}
+.lookbook-detalle.amarillo {
+	background-color:#f9db1b
+}
+.lookbook-detalle.azul {
+	background-color:#009fe3
+}
+.lookbook-detalle.morado {
+	background-color:#e6007f
+}
+.lookbook-detalle.rosa {
+	background-color:#ea96b7
+}
+.lookbook-detalle.beige {
+	background-color:#fcd48e
+}
+.grid-item {
+	max-width:130px;
+	margin:6px
+}
+.top5 {
+	background:linear-gradient(180deg, white 70%, #f8db1b 30%)
+}
+.top5 .container {
+	
+}
+.top5 .blanco {
+	background-color:#fff
+}
+.top5 .amarillo {
+	background-color:#f8db1b
+}
+#top5-col-6 .cerrar-top5 {
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:20px
+}
+
+@media (max-width:767px) {
+	.grid-item {
+		max-width:110px
+	}
+	#bajar, #subir {
+		height:14px;
+		left:50%;
+		margin-left:-13px;
+		position:absolute;
+		width:24px;
+		z-index:10
+	}
+	#subir {
+		top:52px
+	}
+	.home .contenido {
+		border:none;
+		position:static;
+		bottom:auto
+	}
+	.campana {
+		background-image:url('../img/fondo-campana-mobile.jpg')
+	}
+	.ayuda {
+		display:none!important
+	}
+	.top5 {
+		background:none
+	}
+}
+@media (max-width:1100px) {
+	.barra-menu a {
+		font-size:15px
+	}
+}
+@media (min-width:1200px) {
+	.top5 .container {
+		width:1250px;
+	}
+}
+@media (min-width:1450px) {
+	.top5 .container {
+		width:1500px;
+	}
+}

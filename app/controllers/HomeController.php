@@ -5,9 +5,15 @@ class HomeController extends BaseController {
 	private $_video = 'D9lXtYgD21s';
 	private $_imagesInstagram;
 	private $_imagesTwitter;
+	private $_vista;
 
 	public function __construct()
     {
+		if (Agent::isMobile())
+			$this->_vista = 'mobile';
+		else
+			$this->_vista = 'index';
+		
 		$this->_imagesInstagram = array();
 		$this->_imagesTwitter = array();
 
@@ -37,8 +43,7 @@ class HomeController extends BaseController {
 	
 	public function index()
 	{
-		//Agent::isMobile();
-		return View::make('index')
+		return View::make($this->_vista)
 				->with('videoCampana', $this->_video)
 				->with('calendario', '0')
 				->with('instagram', $this->_imagesInstagram)
@@ -46,7 +51,7 @@ class HomeController extends BaseController {
 	}
 	public function calendario()
 	{
-		return View::make('index')
+		return View::make($this->_vista)
 				->with('videoCampana', $this->_video)
 				->with('calendario', '1')
 				->with('instagram', $this->_imagesInstagram)
