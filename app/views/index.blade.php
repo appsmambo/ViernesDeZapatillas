@@ -1436,7 +1436,9 @@
 			<img src="{{url()}}/img/top5/05.jpg" alt="">
 			<div id="lookbook-detalle-1" class="lookbook-detalle amarillo">
 				<p class="text-center">
-					<img src="{{url()}}/img/lookbook/01.jpg" alt="" class="img-responsive center-block">
+					<a href="http://camillewalala.com/" target="_blank">
+						<img src="{{url()}}/img/lookbook/01.jpg" alt="" class="img-responsive center-block">
+					</a>
 					<br>
 					CAT ZAPATILLA MARI CANVAS WALALA<br>
 					17001556 - S/. 299
@@ -1711,14 +1713,14 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/30.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NEW BALANCE ZAPATILLA ML400SNF<br>
-					16986608 - S/. 159
+					NEW BALANCE ZAPATILLA NBL U410 CC<br>
+					16979924 - S/. 199
 				</p>
 				<p class="text-center">
-					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/30.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE ML400SNF S/.159 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
+					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/30.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE NBL U410 CC S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 						<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 					</a>
-					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20NEW%20BALANCE%20ML400SNF%20S/.159%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
+					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20NEW%20BALANCE%20NBL%20U410%20CC%20S/.199%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
 						<img src="{{url()}}/img/lookbook-compartir-twitter.png" alt="">
 					</a>
 					<br>
@@ -1839,14 +1841,14 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/27.jpg" alt="" class="img-responsive center-block">
 					<br>
-					NEW BALANCE ZAPATILLA NBL U410 CC<br>
-					16979924 - S/. 199
+					INDEX ZAPATILLA NADI<br>
+					16791638 - S/. 69.90
 				</p>
 				<p class="text-center">
-					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/27.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE NBL U410 CC S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
+					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/27.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX NADI S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 						<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 					</a>
-					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20NEW%20BALANCE%20NBL%20U410%20CC%20S/.199%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
+					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20INDEX%20NADI%20S/.69.90%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
 						<img src="{{url()}}/img/lookbook-compartir-twitter.png" alt="">
 					</a>
 					<br>
@@ -1967,14 +1969,14 @@
 				<p class="text-center">
 					<img src="{{url()}}/img/lookbook/29.jpg" alt="" class="img-responsive center-block">
 					<br>
-					INDEX ZAPATILLA NADI<br>
-					16791638 - S/. 69.90
+					NEW BALANCE ZAPATILLA ML400SNF<br>
+					16986608 - S/. 159
 				</p>
 				<p class="text-center">
-					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/29.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX NADI S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
+					<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/29.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE ML400SNF S/.159 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 						<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 					</a>
-					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20INDEX%20NADI%20S/.69.90%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
+					<a href="https://twitter.com/home?status=%C2%A1Me%20encantaron%20estas%20zapatillas!%20NEW%20BALANCE%20ML400SNF%20S/.159%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" target="_blank">
 						<img src="{{url()}}/img/lookbook-compartir-twitter.png" alt="">
 					</a>
 					<br>

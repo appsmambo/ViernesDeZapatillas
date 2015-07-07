@@ -26,17 +26,6 @@ body {
 p {
 	margin-bottom:0
 }
-.no-gutter > [class*='col-'] {
-	padding-right:0;
-	padding-left:0
-}
-hr.separador {
-	border:1px solid #333;
-	height:0
-}
-.separador {
-	height:20%
-}
 .navbar {
 	z-index:11
 }
@@ -62,17 +51,6 @@ hr.separador {
 	-webkit-transform:rotate(180deg); /* Chrome, Safari, Opera */
 	transform:rotate(180deg);
 }
-.barra-menu {
-	position:absolute;
-	top:30px;
-	right:3%
-}
-.barra-menu a {
-	color:#000;
-	font-size:17px;
-	font-family:'gotham_htfbold';
-	margin-left:12px
-}
 footer {
 	background-color:#000;
 	height:42px;
@@ -85,14 +63,9 @@ footer p {
 }
 .landing {
 	background-color:#f9e52e;
-	background-image:url('../img/landing-zapatilla.jpg');
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover
+	background-image:url('../img/landing-zapatilla-mobile.jpg');
+	background-position:center bottom;
+	background-repeat:no-repeat
 }
 .home .contenido {
 	border:15px solid #f9e52e;
@@ -116,39 +89,6 @@ footer p {
 }
 div.calendario {
 	
-}
-td.calendario {
-	position:relative
-}
-td.calendario img {
-	border:5px solid #fff;
-	padding:2px 12px
-}
-td.calendario:hover img {
-	border:5px solid #f9e52e
-}
-td.calendario .ayuda {
-	border:none!important;
-	position:absolute;
-	left:50%;
-	bottom:0;
-	margin-left:-41px;
-	padding:0
-}
-.cerrar {
-	cursor:pointer;
-	margin-left:65%
-}
-.look.vacio {
-	margin-top:50%
-}
-.look.zapatilla {
-	margin-top:5%
-}
-.scroll-pane {
-	width:100%;
-	height:564px;
-	overflow:auto
 }
 .lookbook {
 	background-color:#009fe3
@@ -199,7 +139,7 @@ td.calendario .ayuda {
 	margin:6px
 }
 .top5 {
-	background:linear-gradient(180deg, white 70%, #f8db1b 30%)
+	
 }
 .top5 .container {
 	
@@ -216,6 +156,11 @@ td.calendario .ayuda {
 	top:0;
 	right:20px
 }
+.top5 p {
+	font-family:'brandon_grotesquebold';
+	font-size:13px
+}
+
 
 @media (max-width:767px) {
 	.grid-item {
@@ -242,23 +187,5 @@ td.calendario .ayuda {
 	}
 	.ayuda {
 		display:none!important
-	}
-	.top5 {
-		background:none
-	}
-}
-@media (max-width:1100px) {
-	.barra-menu a {
-		font-size:15px
-	}
-}
-@media (min-width:1200px) {
-	.top5 .container {
-		width:1250px;
-	}
-}
-@media (min-width:1450px) {
-	.top5 .container {
-		width:1500px;
 	}
 }

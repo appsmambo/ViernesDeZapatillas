@@ -10,7 +10,7 @@ fb[12] = '¡Arma tu look con estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/
 fb[31] = '¡Arma tu look con estas zapatillas! CHUCK TAYLOR ALL STAR HIGH STREET S/. 199 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[7] = '¡Arma tu look con estas zapatillas! ADIDAS PLIMCANA LOW S/. 249 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[9] = '¡Arma tu look con estas zapatillas! NIKE PROMO COURT S/. 229 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
-fb[5] = '¡Arma tu look con estas zapatillas! POE BURNISH BRIGHTS S/. 379 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
+fb[5] = '¡Arma tu look con estas zapatillas! CATERPILLAR POE BURNISH BRIGHTS S/. 379 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[11] = '¡Arma tu look con estas zapatillas! ADIDAS PLIMCANA S/. 259 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[13] = '¡Arma tu look con estas zapatillas! NEW BALANCE GRIS S/. 249 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[23] = '¡Arma tu look con estas zapatillas! PUMA FTR TF- RACER S/. 189 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
@@ -30,7 +30,7 @@ fb[28] = '¡Arma tu look con estas zapatillas! NEW BALANCE S/. 239 Descubre más
 fb[26] = '¡Arma tu look con estas zapatillas! NEW BALANCE S/. 229 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[24] = '¡Arma tu look con estas zapatillas! ADIDAS RACER LITE W S/. 239 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[21] = '¡Arma tu look con estas zapatillas! DC Counsil SD S/. 279 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
-fb[19] = '¡Arma tu look con estas zapatillas! ANVIL TX SE S/. 279 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
+fb[19] = '¡Arma tu look con estas zapatillas! DC ANVIL TX SE S/. 279 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 fb[17] = '¡Arma tu look con estas zapatillas! GOTCHA GT-1510 S/. 129 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
 var tw = [];
 tw[29] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20ZX%20FLUX%20S/.29%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
@@ -42,7 +42,7 @@ tw[12] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%2
 tw[31] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CHUCK%20TAYLOR%20HIGH%20STREET%20S/.199%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[7] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20PLIMCANA%20LOW%20S/.249%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[9] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NIKE%20PROMO%20COURT%20S/.229%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
-tw[5] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20POE%20BURNISH%20BRIGHTS%20S/.379%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
+tw[5] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CATERPILLAR%20POE%20BURNISH%20BRIGHTS%20S/.379%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[11] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20PLIMCANA%20S/.259%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[13] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20GRIS%20S/.249%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[23] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20PUMA%20FTR%20TF-%20RACER%20S/.189%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
@@ -62,7 +62,7 @@ tw[28] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%2
 tw[26] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20S/.229%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[24] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20RACER%20LITE%20W%20S/.239%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[21] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20DC%20Counsil%20SD%20S/.279%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
-tw[19] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ANVIL%20TX%20SE%20S/.279%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
+tw[19] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20DC%20ANVIL%20TX%20SE%20S/.279%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 tw[17] = 'https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20GOTCHA%20GT-1507%20S/.129%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas';
 
 function actualizarAlto(alto) {
