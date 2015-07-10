@@ -160,7 +160,9 @@ div.calendario {
 	font-family:'brandon_grotesquebold';
 	font-size:13px
 }
-
+.boton-menu {
+	margin:8px 15px 0 0
+}
 
 @media (max-width:767px) {
 	.grid-item {

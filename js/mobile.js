@@ -1,23 +1,18 @@
-var flagCalendario;
-var $grid;
-
 $(document).ready(function() {
-	flagCalendario = false;
 	$('#fullpage').fullpage({
 		scrollOverflow:true,
-		anchors:['landing', 'home', 'campana', 'calendario', 'top5', 'lookbook'],
+		anchors:['menu', 'landing', 'home', 'campana', 'calendario', 'top5', 'lookbook'],
 		onLeave:function(index, nextIndex, direction){
 			if (nextIndex === 1) {
-				$('.barra-menu, #subir').fadeOut('fast');
+				$('#subir').fadeOut('fast');
 			} else if (nextIndex === 6) {
 				$('#bajar').fadeOut('fast');
 			} else {
-				$('.barra-menu, #subir, #bajar').fadeIn('fast');
+				$('#subir, #bajar').fadeIn('fast');
 			}
-			$('.barra-menu a').css('color', '#000');
+			$('a').css('color', '#000');
 			switch (nextIndex) {
 				case 1:  // landing
-					$('.barra-menu').fadeOut('fast');
 					$('#subir').attr('href', '#');
 					$('#bajar').attr('href', '#home');
 					break;
@@ -48,17 +43,18 @@ $(document).ready(function() {
 			}
 		},
 		afterLoad:function(anchorLink, index){
-			if (anchorLink === 'landing')
-				setTimeout(function(){$.fn.fullpage.silentMoveTo('home');}, 2500);
 			if (index === 1) {
+				$('#subir, #bajar').fadeOut('fast');
+			} else if (index === 2) {
 				$('#bajar').attr('href', '#home');
-				$('.barra-menu, #subir').fadeOut('fast');
+				$('#subir').fadeOut('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
-			} else if (index === 6) {
-				$('.barra-menu, #subir').fadeIn('fast');
+				//setTimeout(function(){$.fn.fullpage.silentMoveTo('home');}, 3500);
+			} else if (index === 7) {
+				$('#subir').fadeIn('fast');
 				$('#bajar').fadeOut('fast');
 			} else {
-				$('.barra-menu, #subir, #bajar').fadeIn('fast');
+				$('#subir, #bajar').fadeIn('fast');
 				$('#hashtag').removeClass('shake animated');
 			}
 		}

@@ -64,32 +64,54 @@
 		   fjs.parentNode.insertBefore(js, fjs);
 		 }(document, 'script', 'facebook-jssdk'));
 		</script>
-		<nav class="navbar navbar-default visible-xs">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><span>#</span>viernesdezapatillas</a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#campana">Campaña</a></li>
-						<li><a href="#calendario">Calendario</a></li>
-						<li><a href="#top5">top5</a></li>
-						<li><a href="#lookbook">Lookbook</a></li>
-						<li><a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">Ver Video</a></li>
-						<li><a href="http://issuu.com/ripleyperu/docs/r-zapatillas" target="_blank">Ver Catálogo</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+		<header id="header">
+			<nav class="navbar navbar-default visible-xs">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button-->
+						<a class="navbar-brand" href="#home"><span>#</span>viernesdezapatillas</a>
+						<a href="#menu" class="pull-right boton-menu">
+							<img src="{{url()}}/img/boton-menu.jpg" alt="" class="pull-right">
+						</a>
+					</div>
+					<!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#campana">Campaña</a></li>
+							<li><a href="#calendario">Calendario</a></li>
+							<li><a href="#top5">top5</a></li>
+							<li><a href="#lookbook">Lookbook</a></li>
+							<li><a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">Ver Video</a></li>
+							<li><a href="http://issuu.com/ripleyperu/docs/r-zapatillas" target="_blank">Ver Catálogo</a></li>
+						</ul>
+					</div--><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
 		<div id="fullpage">
-			<div class="section landing">
+			<div class="section menu">
+				<p class="text-center">
+					<a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">
+						<img src="{{url()}}/img/menu-video-mobile.jpg" class="center-block img-responsive">
+					</a>
+					<a href="#calendario">
+						<img src="{{url()}}/img/menu-calendario-mobile.jpg" class="center-block img-responsive">
+					</a>
+					<a href="#top5">
+						<img src="{{url()}}/img/menu-top5-mobile.jpg" class="center-block img-responsive">
+					</a>
+					<a href="#lookbook">
+						<img src="{{url()}}/img/menu-lookbook-mobile.jpg" class="center-block img-responsive">
+					</a>
+					<br><br><br><br>
+				</p>
+			</div>
+			<div class="section landing active">
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
 						<img id="hashtag" src="{{url()}}/img/landing-hashtag.png" alt="" class="center-block img-responsive">
@@ -1496,7 +1518,7 @@
 			<img src="{{url()}}/img/navegar.png" alt="" class="hidden-xs">
 			<img src="{{url()}}/img/navegar-mobile.png" alt="" class="visible-xs">
 		</a>
-		<footer class="container-fluid">
+		<footer id="footer" class="container-fluid">
 			<section class="row">
 				<div class="col-xs-6">
 					<p>
