@@ -245,7 +245,7 @@
 						</div>
 					</div>
 					<div class="col-sm-9 col-md-8">
-						<div class="table-responsive">
+						<div class="table-responsive scroll-pane2">
 							<table class="table table-bordered">
 								<tr>
 									<td>
@@ -1136,27 +1136,27 @@
 					<div class="container">
 						<div class="row no-gutter">
 							<div id="top5-col-1" class="col-sm-2 col-sm-offset-1">
-								<a href="#" class="top5-prenda" data-prenda="1">
+								<a id="boton-prenda-1" href="#" class="top5-prenda" data-prenda="1">
 									<img src="{{url()}}/img/top5/01.jpg" alt="" class="img-responsive center-block">
 								</a>
 							</div>
 							<div id="top5-col-2" class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="2">
+								<a id="boton-prenda-2" href="#" class="top5-prenda" data-prenda="2">
 									<img src="{{url()}}/img/top5/02.jpg" alt="" class="img-responsive center-block">
 								</a>
 							</div>
 							<div id="top5-col-3" class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="3">
+								<a id="boton-prenda-3" href="#" class="top5-prenda" data-prenda="3">
 									<img src="{{url()}}/img/top5/03.jpg" alt="" class="img-responsive center-block">
 								</a>
 							</div>
 							<div id="top5-col-4" class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="4">
+								<a id="boton-prenda-4" href="#" class="top5-prenda" data-prenda="4">
 									<img src="{{url()}}/img/top5/04.jpg" alt="" class="img-responsive center-block">
 								</a>
 							</div>
 							<div id="top5-col-5" class="col-sm-2">
-								<a href="#" class="top5-prenda" data-prenda="5">
+								<a id="boton-prenda-5" href="#" class="top5-prenda" data-prenda="5">
 									<img src="{{url()}}/img/top5/05.jpg" alt="" class="img-responsive center-block">
 								</a>
 							</div>
@@ -1171,34 +1171,34 @@
 					<div class="container">
 						<div class="row no-gutter">
 							<div class="col-sm-2 col-sm-offset-1">
-								<!--a href="#" class="top5-prenda" data-prenda="1"-->
+								<a href="#" class="boton-top5-prenda" data-prenda="1">
 									<img id="top5-1" src="{{url()}}/img/top5-1.png" alt="" class="top5-numero img-responsive center-block">
-								<!--/a-->
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<!--a href="#" class="top5-prenda" data-prenda="2"-->
+								<a href="#" class="boton-top5-prenda" data-prenda="2">
 									<img id="top5-2" src="{{url()}}/img/top5-2.png" alt="" class="top5-numero img-responsive center-block">
-								<!--/a-->
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<!--a href="#" class="top5-prenda" data-prenda="3"-->
+								<a href="#" class="boton-top5-prenda" data-prenda="3">
 									<img id="top5-3" src="{{url()}}/img/top5-3.png" alt="" class="top5-numero img-responsive center-block">
-								<!--/a-->
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<!--a href="#" class="top5-prenda" data-prenda="4"-->
+								<a href="#" class="boton-top5-prenda" data-prenda="4">
 									<img id="top5-4" src="{{url()}}/img/top5-4.png" alt="" class="top5-numero img-responsive center-block">
-								<!--/a-->
+								</a>
 							</div>
 							<div class="col-sm-2">
-								<!--a href="#" class="top5-prenda" data-prenda="5"-->
+								<a href="#" class="boton-top5-prenda" data-prenda="5">
 									<img id="top5-5" src="{{url()}}/img/top5-5.png" alt="" class="top5-numero img-responsive center-block">
-								<!--/a-->
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="visible-xs">
+			<!--	<div class="visible-xs">
 					<div class="row">
 						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
@@ -1251,7 +1251,7 @@
 					<p>
 						<br><br><br><br><br><br>
 					</p>
-				</div>
+				</div> -->
 			</div>
 			<!-- fin top5 -->
 			<!-- lookbook -->

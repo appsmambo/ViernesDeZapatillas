@@ -30,7 +30,7 @@
 					percentage: false,
 					barHeight: 1,
 					minimumTime: 200,
-					maxTime: 25000,
+					maxTime: 35000,
 					fadeOutTime: 1000
 				});
 			});
@@ -42,7 +42,6 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		<script src="{{url()}}/js/jquery-1.11.3.min.js"></script>
-		<script src="{{url()}}/js/bootstrap.min.js"></script>
 		<script src="{{url()}}/js/jquery.slimscroll.min.js"></script>
 		<script src="{{url()}}/js/jquery.fullPage.min.js"></script>
 		<script src="{{url()}}/js/mobile.js?v=123"></script>
@@ -64,53 +63,19 @@
 		   fjs.parentNode.insertBefore(js, fjs);
 		 }(document, 'script', 'facebook-jssdk'));
 		</script>
-		<header id="header">
-			<nav class="navbar navbar-default visible-xs">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button-->
-						<a class="navbar-brand" href="#home"><span>#</span>viernesdezapatillas</a>
-						<a href="#menu" class="pull-right boton-menu">
-							<img src="{{url()}}/img/boton-menu.jpg" alt="" class="pull-right">
-						</a>
-					</div>
-					<!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#campana">Campaña</a></li>
-							<li><a href="#calendario">Calendario</a></li>
-							<li><a href="#top5">top5</a></li>
-							<li><a href="#lookbook">Lookbook</a></li>
-							<li><a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">Ver Video</a></li>
-							<li><a href="http://issuu.com/ripleyperu/docs/r-zapatillas" target="_blank">Ver Catálogo</a></li>
-						</ul>
-					</div--><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header>
+		<a href="#" class="pull-right boton-menu">
+			<img src="{{url()}}/img/boton-menu.png" alt="" class="pull-right">
+		</a>
+		<div class="bloque-menu" style="display:none">
+			<a href="#home">Home</a><br>
+			<a href="#campana">Campaña</a><br>
+			<a href="#calendario">Calendario</a><br>
+			<a href="#top5">top5</a><br>
+			<a href="#lookbook">Lookbook</a><br>
+			<a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">Ver Video</a><br>
+			<a href="http://issuu.com/ripleyperu/docs/r-zapatillas" target="_blank">Ver Catálogo</a>
+		</div>
 		<div id="fullpage">
-			<div class="section menu">
-				<p class="text-center">
-					<a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank">
-						<img src="{{url()}}/img/menu-video-mobile.jpg" class="center-block img-responsive">
-					</a>
-					<a href="#calendario">
-						<img src="{{url()}}/img/menu-calendario-mobile.jpg" class="center-block img-responsive">
-					</a>
-					<a href="#top5">
-						<img src="{{url()}}/img/menu-top5-mobile.jpg" class="center-block img-responsive">
-					</a>
-					<a href="#lookbook">
-						<img src="{{url()}}/img/menu-lookbook-mobile.jpg" class="center-block img-responsive">
-					</a>
-					<br><br><br><br>
-				</p>
-			</div>
 			<div class="section landing active">
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
@@ -121,13 +86,14 @@
 			<!-- #home -->
 			<div class="section home">
 				<div class="contenido">
-					<div class="row visible-xs">
+					<div class="row">
 						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/la-semana-empieza-el-viernes.png" alt="" class="center-block img-responsive">
 								<br>
 								<img src="{{url()}}/img/whynot.png" alt="" class="center-block img-responsive">
 								<br><br>
+								<a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank"><img src="{{url()}}/img/boton-mira-la-campana.jpg" alt="" class="center-block img-responsive"></a><br>
 							</p>
 						</div>
 					</div>
@@ -137,15 +103,17 @@
 			<!-- #campana -->
 			<div class="section campana">
 				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1">
+					<div class="col-xs-12">
 						<p>
-							<img src="{{url()}}/img/campana-mobile.jpg" alt="" class="center-block img-responsive">
 							<br>
-							<img src="{{url()}}/img/sigue-el-movimiento-mobile.png" alt="" class="center-block img-responsive">
+							<img src="{{url()}}/img/campana-mobile.png" alt="" class="center-block img-responsive">
 							<br>
-							<img src="{{url()}}/img/participa-mobile.png" alt="" class="center-block img-responsive">
-							<br><br>
 						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-xs-offset-3">
+						<img src="{{url()}}/img/sigue-el-movimiento.png" alt="" class="center-block img-responsive">
 					</div>
 				</div>
 			</div>
@@ -153,6 +121,13 @@
 			<!-- #calendario -->
 			<div class="section calendario">
 				<div class="slide" id="slide1">
+					<div class="row">
+						<div class="col-xs-12">
+							<img src="{{url()}}/img/calendario-intro.jpg" alt="" class="center-block img-responsive">
+						</div>
+					</div>
+				</div>
+				<div class="slide" id="slide2">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -172,7 +147,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide2">
+				<div class="slide" id="slide3">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -192,7 +167,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide3">
+				<div class="slide" id="slide4">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -212,7 +187,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide4">
+				<div class="slide" id="slide5">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -232,7 +207,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide5">
+				<div class="slide" id="slide6">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -252,7 +227,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide6">
+				<div class="slide" id="slide7">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -272,7 +247,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide7">
+				<div class="slide" id="slide8">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -292,7 +267,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide8">
+				<div class="slide" id="slide9">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -312,7 +287,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide9">
+				<div class="slide" id="slide10">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -332,7 +307,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide10">
+				<div class="slide" id="slide11">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -352,7 +327,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide11">
+				<div class="slide" id="slide12">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -372,7 +347,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide12">
+				<div class="slide" id="slide13">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -392,7 +367,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide13">
+				<div class="slide" id="slide14">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -412,7 +387,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide14">
+				<div class="slide" id="slide15">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -432,7 +407,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide15">
+				<div class="slide" id="slide16">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -452,7 +427,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide16">
+				<div class="slide" id="slide17">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -472,7 +447,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide17">
+				<div class="slide" id="slide18">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -492,7 +467,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide18">
+				<div class="slide" id="slide19">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -512,7 +487,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide19">
+				<div class="slide" id="slide20">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -532,7 +507,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide20">
+				<div class="slide" id="slide21">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -552,7 +527,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide21">
+				<div class="slide" id="slide22">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -572,7 +547,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide22">
+				<div class="slide" id="slide23">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -592,7 +567,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide23">
+				<div class="slide" id="slide24">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -612,7 +587,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide24">
+				<div class="slide" id="slide25">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -632,7 +607,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide25">
+				<div class="slide" id="slide26">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -652,7 +627,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide26">
+				<div class="slide" id="slide27">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -672,7 +647,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide27">
+				<div class="slide" id="slide28">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -692,7 +667,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide28">
+				<div class="slide" id="slide29">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -712,7 +687,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide29">
+				<div class="slide" id="slide30">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -732,7 +707,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide30">
+				<div class="slide" id="slide31">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -752,7 +727,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide31">
+				<div class="slide" id="slide32">
 					<div class="row">
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
@@ -873,6 +848,13 @@
 				</div>
 			</div>
 			<!-- fin top5 -->
+			<div class="section lookbook-intro">
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<img src="{{url()}}/img/lookbook-intro.jpg" alt="" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
 			<!-- lookbook -->
 			<div class="section lookbook">
 				<div class="slide" id="slide42">
@@ -1510,19 +1492,16 @@
 			</div>
 			<!-- fin lookbook -->
 		</div>
-		<a id="bajar" href="#">
-			<img src="{{url()}}/img/navegar.png" alt="" class="hidden-xs">
+		<a id="bajar" href="#home">
 			<img src="{{url()}}/img/navegar-mobile.png" alt="" class="visible-xs">
 		</a>
 		<a id="subir" href="#">
-			<img src="{{url()}}/img/navegar.png" alt="" class="hidden-xs">
 			<img src="{{url()}}/img/navegar-mobile.png" alt="" class="visible-xs">
 		</a>
 		<footer id="footer" class="container-fluid">
 			<section class="row">
 				<div class="col-xs-6">
 					<p>
-						<img src="{{url()}}/img/footer-siguenos.png" alt="" class="hidden-xs">
 						<a href="https://www.facebook.com/RipleyPeru" target="_blank">
 							<img src="{{url()}}/img/footer-facebook.png" alt="">
 						</a>

@@ -1,7 +1,11 @@
 $(document).ready(function() {
+	$('.boton-menu').click(function() {
+		$('.bloque-menu').fadeToggle('slow');
+		return false;
+	});
 	$('#fullpage').fullpage({
 		scrollOverflow:true,
-		anchors:['menu', 'landing', 'home', 'campana', 'calendario', 'top5', 'lookbook'],
+		anchors:['landing', 'home', 'campana', 'calendario', 'top5', 'lookbook-intro', 'lookbook'],
 		onLeave:function(index, nextIndex, direction){
 			if (nextIndex === 1) {
 				$('#subir').fadeOut('fast');
@@ -35,8 +39,13 @@ $(document).ready(function() {
 					$('#bajar').attr('href', '#lookbook');
 					$('#menu-top5').css('color', '#f8db1a');
 					break;
-				case 6:  // lookbook
+				case 6:  // lookbook intro
 					$('#subir').attr('href', '#top5');
+					$('#bajar').attr('href', '#lookbook');
+					$('#menu-lookbook').css('color', '#fff');
+					break;
+				case 7:  // lookbook
+					$('#subir').attr('href', '#lookbook-intro');
 					$('#bajar').attr('href', '#');
 					$('#menu-lookbook').css('color', '#fff');
 					break;
@@ -44,12 +53,9 @@ $(document).ready(function() {
 		},
 		afterLoad:function(anchorLink, index){
 			if (index === 1) {
-				$('#subir, #bajar').fadeOut('fast');
-			} else if (index === 2) {
-				$('#bajar').attr('href', '#home');
 				$('#subir').fadeOut('fast');
+				$('#bajar').fadeIn('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
-				//setTimeout(function(){$.fn.fullpage.silentMoveTo('home');}, 3500);
 			} else if (index === 7) {
 				$('#subir').fadeIn('fast');
 				$('#bajar').fadeOut('fast');

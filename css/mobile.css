@@ -90,6 +90,9 @@ footer p {
 div.calendario {
 	
 }
+.lookbook-intro {
+	background-color:#fe99b9
+}
 .lookbook {
 	background-color:#009fe3
 }
@@ -161,7 +164,26 @@ div.calendario {
 	font-size:13px
 }
 .boton-menu {
-	margin:8px 15px 0 0
+	position:absolute;
+	top:8px;
+	right:10px;
+	z-index:999
+}
+.bloque-menu {
+	background-color:#000;
+	color:#fff;
+	position:absolute;
+	z-index:999;
+	text-align:right;
+	width:150px;
+	padding:8px;
+	right:8px;
+	top:40px
+}
+.bloque-menu a {
+	color:#fff!important;
+	font-size:18px;
+	line-height:24px
 }
 
 @media (max-width:767px) {

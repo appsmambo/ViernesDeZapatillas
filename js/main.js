@@ -1,4 +1,4 @@
-var altoTotal, altoMenu, altoFooter, api, pane, flagCalendario;
+var altoTotal, altoMenu, altoFooter, api, pane, flagCalendario, pane2, api2;
 var $grid;
 var fb = [];
 fb[29] = '¡Arma tu look con estas zapatillas! ADIDAS ZX FLUX S/. 29 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas';
@@ -71,6 +71,7 @@ function actualizarAlto(alto) {
 	altoTotal = $(window).height() - (altoFooter + altoMenu + alto);
 	$('.home .contenido').height(altoTotal);
 	api.reinitialise();
+	api2.reinitialise();
 }
 
 $(document).ready(function() {
@@ -191,7 +192,6 @@ $(document).ready(function() {
 		$('#top5-col-' + prenda + ' img').attr('src', urlBase + '/img/top5/0' + prenda + '.gif');
 		html = '<img src="' + urlBase + '/img/top5/zapatilla-' + prenda + '.jpg" alt="" class="img-responsive center-block">';
 		$('#top5-col-6 div').html(html);
-		$('.cerrar-top5').data('prenda', prenda);
 		for (i = 1; i <= 6; i++) {
 			if (i === prenda) {
 				$('#top5-col-' + prenda + ' img').attr('src',  urlBase + '/img/top5/0' + prenda + '.gif');
@@ -206,8 +206,13 @@ $(document).ready(function() {
 		}
 		return false;
 	});
-	$('.cerrar-top5').click(function () {
+	$('.boton-top5-prenda').click(function() {
 		var prenda = parseInt($(this).data('prenda'));
+		$('.cerrar-top5').trigger('click');
+		setTimeout(function(){$('#boton-prenda-' + prenda).trigger('click');}, 1250);
+		return false;
+	});
+	$('.cerrar-top5').click(function () {
 		$('#top5-col-6').fadeOut('slow', function() {
 			for (i = 1; i <= 5; i++) {
 				$('#top5-col-' + i + ' img').attr('src',  urlBase + '/img/top5/0' + i + '.jpg');
@@ -218,8 +223,11 @@ $(document).ready(function() {
 	});
 	$('.iframe').colorbox({iframe:true, width:"70%", height:"68%"});
 	$('.scroll-pane').jScrollPane();
+	$('.scroll-pane2').jScrollPane();
 	pane = $('.scroll-pane');
 	api = pane.data('jsp');
+	pane2 = $('.scroll-pane2');
+	api2 = pane2.data('jsp');
 	$('.ver-todas').click(function() {
 		$grid.isotope({filter:'*'});
 		return false;
