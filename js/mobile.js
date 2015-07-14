@@ -59,10 +59,13 @@ $(document).ready(function() {
 				$('#subir').fadeOut('fast');
 				$('#bajar').fadeIn('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
+			} else if (index === 3) {
+				$('.fp-controlArrow').hide();
 			} else if (index === 7) {
 				$('#subir').fadeIn('fast');
 				$('#bajar').fadeOut('fast');
 			} else {
+				$('.fp-controlArrow').show();
 				$('#subir, #bajar').fadeIn('fast');
 				$('#hashtag').removeClass('shake animated');
 			}

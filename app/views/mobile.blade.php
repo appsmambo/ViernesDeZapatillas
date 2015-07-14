@@ -134,9 +134,18 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-01.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-01.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+
+					</div>
+					<div class="row">
+
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-01.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-01.jpg" data-texto="¡Arma tu look con estas zapatillas! MARQUIS PELO ZULEMA S/. 129 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -144,7 +153,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20MARQUIS%20PELO%20ZULEMA%20S/.129%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -154,9 +162,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-02.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-02.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-02.jpg" alt="" class="center-block img-responsive">
+						</div>	
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-02.jpg" data-texto="¡Arma tu look con estas zapatillas! INDEX LAURAP S/. 69.90 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -164,7 +179,7 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20INDEX%20LAURAP%20S/.69.9%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
+								
 							</p>
 						</div>
 					</div>
@@ -174,9 +189,17 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-03.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-03.jpg" alt="" class="center-block img-responsive">
+								
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-03.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-03.jpg" data-texto="¡Arma tu look con estas zapatillas! SKECHERS S/. 320 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -184,7 +207,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20SKECHERS%20S/.320%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -194,9 +216,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-04.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-04.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-04.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-04.jpg" data-texto="¡Arma tu look con estas zapatillas! INDEX LAURA QUILT S/. 69.90 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -204,7 +233,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20INDEX%20LAURA%20QUILT%20S/.69.9%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -214,9 +242,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-05.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-05.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-05.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-05.jpg" data-texto="¡Arma tu look con estas zapatillas! POE BURNISH BRIGHTS S/. 379 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -224,7 +259,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20POE%20BURNISH%20BRIGHTS%20S/.379%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -234,9 +268,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-06.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-06.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-06.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-06.jpg" data-texto="¡Arma tu look con estas zapatillas! PUMA VIKKY WEDGE S/. 269 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -244,7 +285,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20PUMA%20VIKKY%20WEDGE%20S/.269%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -254,9 +294,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-07.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-07.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-07.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-07.jpg" data-texto="¡Arma tu look con estas zapatillas! ADIDAS PLIMCANA LOW S/. 249 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -264,7 +311,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20PLIMCANA%20LOW%20S/.249%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -274,9 +320,17 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-08.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-08.jpg" alt="" class="center-block img-responsive">
+								
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-08.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-08.jpg" data-texto="¡Arma tu look con estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/. 189 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -284,7 +338,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CONVERSE%20CHUCK%20TAYLOR%20S/.189%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -294,9 +347,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-09.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-09.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-09.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p>
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-09.jpg" data-texto="¡Arma tu look con estas zapatillas! NIKE PROMO COURT S/. 229 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -304,7 +364,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NIKE%20PROMO%20COURT%20S/.229%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -314,9 +373,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-10.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-10.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-10.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div col-xs-4>
+							<p>
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-10.jpg" data-texto="¡Arma tu look con estas zapatillas! NIKE PRIMO COURT MID CVS PRINT S/. 259 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -324,7 +390,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NIKE%20PRIMO%20COURT%20MID%20S/.259%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -334,9 +399,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-11.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-11.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-11.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-11.jpg" data-texto="¡Arma tu look con estas zapatillas! ADIDAS PLIMCANA S/. 259 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -344,7 +416,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20PLIMCANA%20S/.259%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -354,9 +425,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-12.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-12.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-12.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-12.jpg" data-texto="¡Arma tu look con estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/. 189 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -364,7 +442,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CONVERSE%20CHUCK%20TAYLOR%20S/.189%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -374,9 +451,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-13.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-13.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+								<img src="{{url()}}/img/zapatillas/zapatilla-13.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-13.jpg" data-texto="¡Arma tu look con estas zapatillas! NEW BALANCE GRIS S/. 249 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -384,7 +468,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20GRIS%20S/.249%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -394,9 +477,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-14.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-14.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-14.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-14.jpg" data-texto="¡Arma tu look con estas zapatillas! SKECHERS S/. 280 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -404,7 +494,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20SKECHERS%20S/.280%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -414,9 +503,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-15.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-15.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-15.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-15.jpg" data-texto="¡Arma tu look con estas zapatillas! CATERPILLAR ZIMZALA MID S/. 349 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -424,7 +520,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CATERPILLAR%20ZIMZALA%20MID%20S/.349%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -434,9 +529,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-16.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-16.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-16.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-16.jpg" data-texto="¡Arma tu look con estas zapatillas! NIKE FORCE SKY HIGH PRINT S/. 299 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -444,7 +546,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NIKE%20FORCE%20SKY%20HIGH%20PRINT%20S/.299%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -454,9 +555,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-17.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-17.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row"> 
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-17.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-17.jpg" data-texto="¡Arma tu look con estas zapatillas! GOTCHA GT-1510 S/. 129 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -464,7 +572,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20GOTCHA%20GT-1507%20S/.129%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -474,9 +581,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-18.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-18.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-18.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-18.jpg" data-texto="¡Arma tu look con estas zapatillas! INDEX LAURAQUILT S/. 69.90 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -484,7 +598,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20INDEX%20LAURAQUILT%20S/.69.9%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -494,9 +607,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-19.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-19.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-19.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-19.jpg" data-texto="¡Arma tu look con estas zapatillas! ANVIL TX SE S/. 279 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -504,7 +624,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ANVIL%20TX%20SE%20S/.279%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -514,9 +633,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-20.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-20.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-20.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-20.jpg" data-texto="¡Arma tu look con estas zapatillas! REEBOK SKYSCAPE S/. 199 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -524,7 +650,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20REEBOK%20SKYSCAPE%20S/.199%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -534,9 +659,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-21.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-21.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-21.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-21.jpg" data-texto="¡Arma tu look con estas zapatillas! DC Counsil SD S/. 279 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -544,7 +676,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20DC%20Counsil%20SD%20S/.279%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -554,9 +685,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-22.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-22.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-22.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-22.jpg" data-texto="¡Arma tu look con estas zapatillas! PUMA FTR TF-RACER S/. 189 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -564,7 +702,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20PUMA%20FTR%20TF-RACER%20S/.189%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -574,9 +711,17 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-23.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-23.jpg" alt="" class="center-block img-responsive">
+								
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-23.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-23.jpg" data-texto="¡Arma tu look con estas zapatillas! PUMA FTR TF- RACER S/. 189 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -584,7 +729,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20PUMA%20FTR%20TF-%20RACER%20S/.189%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -594,9 +738,17 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-24.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-24.jpg" alt="" class="center-block img-responsive">
+								
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-24.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-24.jpg" data-texto="¡Arma tu look con estas zapatillas! ADIDAS RACER LITE W S/. 239 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -604,7 +756,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20RACER%20LITE%20W%20S/.239%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -614,9 +765,17 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-25.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-25.jpg" alt="" class="center-block img-responsive">
+								
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-25.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-25.jpg" data-texto="¡Arma tu look con estas zapatillas! NIKE FIEID TRAINER LEATHER S/. 269 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -624,7 +783,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NIKE%20FIEID%20TRAINER%20LEATHER%20S/.269%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -634,9 +792,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-26.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-26.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-26.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<br><br><br>
+							<p >
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-26.jpg" data-texto="¡Arma tu look con estas zapatillas! NEW BALANCE S/. 229 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -644,7 +809,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20S/.229%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -654,9 +818,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-27.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-27.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-27.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<br><br><br>
+							<p >
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-27.jpg" data-texto="¡Arma tu look con estas zapatillas! REEBOK GT1510 S/. 129 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -664,7 +835,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20REEBOK%20GT1510%20S/.129%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -674,9 +844,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-28.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-28.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-28.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-28.jpg" data-texto="¡Arma tu look con estas zapatillas! NEW BALANCE S/. 239 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -684,7 +861,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20S/.239%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -694,9 +870,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-29.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-29.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-29.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-29.jpg" data-texto="¡Arma tu look con estas zapatillas! ADIDAS ZX FLUX S/. 29 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -704,7 +887,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20ADIDAS%20ZX%20FLUX%20S/.29%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -714,9 +896,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-30.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-30.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-30.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<br><br><br>
+							<p >
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-30.jpg" data-texto="¡Arma tu look con estas zapatillas! NEW BALANCE S/. 159 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -724,7 +913,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20NEW%20BALANCE%20S/.159%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
@@ -734,9 +922,16 @@
 						<div class="col-xs-6 col-xs-offset-3">
 							<p class="text-center">
 								<img src="{{url()}}/img/zapatillas/look-31.jpg" alt="" class="center-block img-responsive">
-								<img src="{{url()}}/img/zapatillas/zapatilla-31.jpg" alt="" class="center-block img-responsive">
 							</p>
-							<p class="text-center">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-7 col-xs-offset-1">
+							<img src="{{url()}}/img/zapatillas/zapatilla-31.jpg" alt="" class="center-block img-responsive">
+						</div>
+						<div class="col-xs-4">
+							<p >
+								<br><br><br>
 								<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/zapatillas/look-31.jpg" data-texto="¡Arma tu look con estas zapatillas! CHUCK TAYLOR ALL STAR HIGH STREET S/. 199 Descubre más en www.viernesdezapatillas.pe #Ripley #viernesdezapatillas">
 									<img src="{{url()}}/img/compartir-facebook.png" alt="">
 								</a>
@@ -744,7 +939,6 @@
 								<a href="https://twitter.com/home?status=%C2%A1Arma%20tu%20look%20con%20estas%20zapatillas!%20CHUCK%20TAYLOR%20HIGH%20STREET%20S/.199%20Descubre%20m%C3%A1s%20en%20viernesdezapatillas.pe%20%23Ripley%20%23viernesdezapatillas" class="compartir-twitter" target="_blank">
 									<img src="{{url()}}/img/compartir-twitter.png" alt="">
 								</a>
-								<br><br><br><br><br>
 							</p>
 						</div>
 					</div>
