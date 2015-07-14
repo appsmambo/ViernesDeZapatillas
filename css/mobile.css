@@ -44,7 +44,7 @@ p {
 	bottom:50px
 }
 #subir {
-	top:28px
+	top:20px
 }
 #subir img {
 	-ms-transform:rotate(180deg); /* IE 9 */
@@ -91,7 +91,10 @@ div.calendario {
 	
 }
 .lookbook-intro {
-	background-color:#fe99b9
+	background-color:#ff9aba;
+	background-image:url('../img/lookbook-intro.png');
+	background-position:bottom center;
+	background-repeat:no-repeat
 }
 .lookbook {
 	background-color:#009fe3
@@ -153,6 +156,9 @@ div.calendario {
 .top5 .amarillo {
 	background-color:#f8db1b
 }
+.gris {
+	background-color:#f6f6f6
+}
 #top5-col-6 .cerrar-top5 {
 	cursor:pointer;
 	position:absolute;
@@ -176,14 +182,14 @@ div.calendario {
 	z-index:999;
 	text-align:right;
 	width:150px;
-	padding:8px;
+	padding:8px 12px;
 	right:8px;
 	top:40px
 }
 .bloque-menu a {
 	color:#fff!important;
-	font-size:18px;
-	line-height:24px
+	font-size:20px;
+	line-height:34px
 }
 
 @media (max-width:767px) {
@@ -197,9 +203,6 @@ div.calendario {
 		position:absolute;
 		width:24px;
 		z-index:10
-	}
-	#subir {
-		top:52px
 	}
 	.home .contenido {
 		border:none;

@@ -92,7 +92,7 @@
 								<img src="{{url()}}/img/la-semana-empieza-el-viernes.png" alt="" class="center-block img-responsive">
 								<br>
 								<img src="{{url()}}/img/whynot.png" alt="" class="center-block img-responsive">
-								<br><br>
+								<br>
 								<a href="https://www.youtube.com/watch?v={{$videoCampana}}" target="_blank"><img src="{{url()}}/img/boton-mira-la-campana.jpg" alt="" class="center-block img-responsive"></a><br>
 							</p>
 						</div>
@@ -123,7 +123,9 @@
 				<div class="slide" id="slide1">
 					<div class="row">
 						<div class="col-xs-12">
-							<img src="{{url()}}/img/calendario-intro.jpg" alt="" class="center-block img-responsive">
+							<a href="#calendario/1">
+								<img src="{{url()}}/img/calendario-intro.jpg" alt="" class="center-block img-responsive">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -751,6 +753,13 @@
 			<!-- fin calendario -->
 			<!-- top5 -->
 			<div class="section top5">
+				<div class="slide" id="slide100">
+					<div class="row">
+						<div class="col-xs-12">
+							<img src="{{url()}}/img/top5-intro.jpg" alt="" class="img-responsive center-block"><br><br><br>
+						</div>
+					</div>
+				</div>
 				<div class="slide" id="slide32">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
@@ -758,7 +767,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide33">
+				<div class="slide" id="slide33 gris">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
 							<p class="text-center">
@@ -777,7 +786,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide35">
+				<div class="slide" id="slide35 gris">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
 							<p class="text-center">
@@ -796,7 +805,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide37">
+				<div class="slide" id="slide37 gris">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
 							<p class="text-center">
@@ -815,7 +824,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide39">
+				<div class="slide" id="slide39 gris">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
 							<p class="text-center">
@@ -834,7 +843,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide41">
+				<div class="slide" id="slide41 gris">
 					<div class="row">
 						<div class="col-xs-8 col-xs-offset-2">
 							<p class="text-center">
@@ -851,7 +860,7 @@
 			<div class="section lookbook-intro">
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
-						<img src="{{url()}}/img/lookbook-intro.jpg" alt="" class="img-responsive center-block">
+						<img src="{{url()}}/img/lookbook-texto.png" alt="" class="img-responsive center-block">
 					</div>
 				</div>
 			</div>

@@ -3,8 +3,11 @@ $(document).ready(function() {
 		$('.bloque-menu').fadeToggle('slow');
 		return false;
 	});
+	$('.bloque-menu a').click(function() {
+		$('.bloque-menu').hide();
+	});
 	$('#fullpage').fullpage({
-		scrollOverflow:true,
+		scrollOverflow:false,
 		anchors:['landing', 'home', 'campana', 'calendario', 'top5', 'lookbook-intro', 'lookbook'],
 		onLeave:function(index, nextIndex, direction){
 			if (nextIndex === 1) {
@@ -63,7 +66,14 @@ $(document).ready(function() {
 				$('#subir, #bajar').fadeIn('fast');
 				$('#hashtag').removeClass('shake animated');
 			}
-		}
+		},
+		afterSlideLoad:function(anchorLink, index, slideAnchor, slideIndex){
+			if (index === 4 && slideIndex === 0) {
+				$('.fp-controlArrow').hide();
+			} else {
+				$('.fp-controlArrow').show();
+			}
+		},
 	});
 	$('.compartir-facebook').click(function() {
 		var imagen = $(this).data('imagen');
