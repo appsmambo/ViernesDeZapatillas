@@ -97,7 +97,7 @@ div.calendario {
 	background-repeat:no-repeat
 }
 .lookbook {
-	background-color:#009fe3
+	background-color:#fff
 }
 .lookbook .container {
 	margin-top:25px
@@ -121,24 +121,65 @@ div.calendario {
 	color:#000;
 	font-family:'brandon_grotesquebold';
 	font-size:15px;
-	width:283px
+	width:100%;
 }
-.lookbook-detalle p {
+.lookbook-detalle p:last-child {
+	background-color:#fff;
+	padding: 3.5% 0;
 }
-.lookbook-detalle.amarillo {
+.lookbook .amarillo {
+	background:linear-gradient(180deg, #f9db1b 30%, #fff 30%)
+}
+.lookbook .amarillo2 {
+	background:linear-gradient(180deg, #f9e62a 30%, #fff 30%)
+}
+.lookbook .azul {
+	background:linear-gradient(180deg, #009fe3 30%, #fff 30%)
+}
+.lookbook .morado {
+	background:linear-gradient(180deg, #e6007f 30%, #fff 30%)
+}
+.lookbook .morado2 {
+	background:linear-gradient(180deg, #c40179 30%, #fff 30%)
+}
+.lookbook .rosa {
+	background:linear-gradient(180deg, #ea96b7 30%, #fff 30%)
+}
+.lookbook .beige {
+	background:linear-gradient(180deg, #fcd48e 30%, #fff 30%)
+}
+.lookbook .gris {
+	background:linear-gradient(180deg, #f8f3ef 30%, #fff 30%)
+}
+.lookbook .gris2 {
+	background:linear-gradient(180deg, #f8f8f8 30%, #fff 30%)
+}
+.amarillo .lookbook-detalle {
 	background-color:#f9db1b
 }
-.lookbook-detalle.azul {
+.amarillo2 .lookbook-detalle {
+	background-color:#f9e62a
+}
+.azul .lookbook-detalle {
 	background-color:#009fe3
 }
-.lookbook-detalle.morado {
+.morado .lookbook-detalle {
 	background-color:#e6007f
 }
-.lookbook-detalle.rosa {
+.morado2 .lookbook-detalle {
+	background-color:#c40179
+}
+.rosa .lookbook-detalle {
 	background-color:#ea96b7
 }
-.lookbook-detalle.beige {
+.beige .lookbook-detalle {
 	background-color:#fcd48e
+}
+.gris .lookbook-detalle {
+	background-color:#f8f3ef
+}
+.gris2 .lookbook-detalle {
+	background-color:#f8f8f8
 }
 .grid-item {
 	max-width:130px;

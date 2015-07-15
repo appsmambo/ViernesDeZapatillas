@@ -59,8 +59,6 @@ $(document).ready(function() {
 				$('#subir').fadeOut('fast');
 				$('#bajar').fadeIn('fast');
 				setTimeout(function(){$('#hashtag').addClass('shake animated');}, 500);
-			} else if (index === 3) {
-				$('.fp-controlArrow').hide();
 			} else if (index === 7) {
 				$('#subir').fadeIn('fast');
 				$('#bajar').fadeOut('fast');
@@ -69,14 +67,24 @@ $(document).ready(function() {
 				$('#subir, #bajar').fadeIn('fast');
 				$('#hashtag').removeClass('shake animated');
 			}
-		},
-		afterSlideLoad:function(anchorLink, index, slideAnchor, slideIndex){
-			if (index === 4 && slideIndex === 0) {
+			if (index === 4 || index === 5) {
 				$('.fp-controlArrow').hide();
-			} else {
-				$('.fp-controlArrow').show();
 			}
 		},
+		afterSlideLoad:function(anchorLink, index, slideAnchor, slideIndex){
+			if (index === 4 || index === 5) {
+				if (slideIndex > 0) {
+					$('.fp-controlArrow').show();
+				} else {
+					$('.fp-controlArrow').hide();
+				}
+			}
+		},
+		onSlideLeave:function(anchorLink, index, slideIndex, direction, nextSlideIndex){
+			if (index === 4 && nextSlideIndex === 0) {
+				$('.fp-controlArrow').hide();
+			}
+		}
 	});
 	$('.compartir-facebook').click(function() {
 		var imagen = $(this).data('imagen');

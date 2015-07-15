@@ -30,7 +30,7 @@
 					percentage: false,
 					barHeight: 1,
 					minimumTime: 200,
-					maxTime: 35000,
+					maxTime: 60000,
 					fadeOutTime: 1000
 				});
 			});
@@ -45,6 +45,15 @@
 		<script src="{{url()}}/js/jquery.slimscroll.min.js"></script>
 		<script src="{{url()}}/js/jquery.fullPage.min.js"></script>
 		<script src="{{url()}}/js/mobile.js?v=123"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-65129398-1', 'auto');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<script>
@@ -107,7 +116,6 @@
 						<p>
 							<br>
 							<img src="{{url()}}/img/campana-mobile.png" alt="" class="center-block img-responsive">
-							<br>
 						</p>
 					</div>
 				</div>
@@ -126,6 +134,7 @@
 							<a href="#calendario/1">
 								<img src="{{url()}}/img/calendario-intro.jpg" alt="" class="center-block img-responsive">
 							</a>
+							<div class="clearfix"></div>
 						</div>
 					</div>
 				</div>
@@ -139,7 +148,6 @@
 
 					</div>
 					<div class="row">
-
 						<div class="col-xs-7 col-xs-offset-1">
 							<img src="{{url()}}/img/zapatillas/zapatilla-01.jpg" alt="" class="center-block img-responsive">
 						</div>
@@ -950,20 +958,22 @@
 				<div class="slide" id="slide100">
 					<div class="row">
 						<div class="col-xs-12">
-							<img src="{{url()}}/img/top5-intro.jpg" alt="" class="img-responsive center-block"><br><br><br>
+							<a href="#top5/1">
+								<img src="{{url()}}/img/top5-intro.jpg" alt="" class="img-responsive center-block"><br><br><br>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide32">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<img src="{{url()}}/img/top5/01.gif" alt="" class="img-responsive center-block"><br><br><br>
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide33 gris">
+				<div class="slide gris" id="slide33">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/top5/zapatilla-1.jpg" alt="" class="img-responsive center-block">
 								<br>
@@ -975,14 +985,14 @@
 				</div>
 				<div class="slide" id="slide34">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<img src="{{url()}}/img/top5/02.gif" alt="" class="img-responsive center-block"><br><br><br>
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide35 gris">
+				<div class="slide gris" id="slide35">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/top5/zapatilla-2.jpg" alt="" class="img-responsive center-block">
 								<br>
@@ -994,14 +1004,14 @@
 				</div>
 				<div class="slide" id="slide36">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<img src="{{url()}}/img/top5/03.gif" alt="" class="img-responsive center-block"><br><br><br>
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide37 gris">
+				<div class="slide gris" id="slide37">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/top5/zapatilla-3.jpg" alt="" class="img-responsive center-block">
 								<br>
@@ -1013,14 +1023,14 @@
 				</div>
 				<div class="slide" id="slide38">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<img src="{{url()}}/img/top5/04.gif" alt="" class="img-responsive center-block"><br><br><br>
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide39 gris">
+				<div class="slide gris" id="slide39">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/top5/zapatilla-4.jpg" alt="" class="img-responsive center-block">
 								<br>
@@ -1032,14 +1042,14 @@
 				</div>
 				<div class="slide" id="slide40">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<img src="{{url()}}/img/top5/05.gif" alt="" class="img-responsive center-block"><br><br><br>
 						</div>
 					</div>
 				</div>
-				<div class="slide" id="slide41 gris">
+				<div class="slide gris" id="slide41">
 					<div class="row">
-						<div class="col-xs-8 col-xs-offset-2">
+						<div class="col-xs-10 col-xs-offset-1">
 							<p class="text-center">
 								<img src="{{url()}}/img/top5/zapatilla-5.jpg" alt="" class="img-responsive center-block">
 								<br>
@@ -1054,23 +1064,25 @@
 			<div class="section lookbook-intro">
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
-						<img src="{{url()}}/img/lookbook-texto.png" alt="" class="img-responsive center-block">
+						<a href="#lookbook">
+							<img src="{{url()}}/img/lookbook-texto.png" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 				</div>
 			</div>
 			<!-- lookbook -->
 			<div class="section lookbook">
-				<div class="slide" id="slide42">
-					<div class="lookbook-detalle amarillo center-block">
+				<div class="slide amarillo" id="slide42">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<a href="http://camillewalala.com/" target="_blank">
 								<img src="{{url()}}/img/lookbook/01.jpg" alt="" class="img-responsive center-block">
 							</a>
-							<br>
-							CAT ZAPATILLA MARI CANVAS WALALA<br>
-							17001556 - S/. 299
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CAT ZAPATILLA MARI CANVAS WALALA<br>
+							17001556 - S/. 299<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/01.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT MARI CANVAS WALALA S/.299 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1083,15 +1095,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide43">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide43">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/04.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CONVERSE ZAPATILLA STAR PLAYER 147460C<br>
-							16994724 - S/. 199
+							<img src="{{url()}}/img/lookbook/04.jpg" alt="" class="img-responsive pull-right">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CONVERSE ZAPATILLA STAR<br>PLAYER 147460C<br>
+							16994724 - S/. 199<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/04.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE STAR PLAYER S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1104,15 +1116,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide44">
-					<div class="lookbook-detalle beige center-block">
+				<div class="slide beige" id="slide44">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/08.jpg" alt="" class="img-responsive center-block">
-							<br>
-							ADIDAS ZAPATILLA PLIMCANA 2.0 LOW<br>
-							16864891 - S/. 259
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							ADIDAS ZAPATILLA PLIMCANA 2.0 LOW<br>
+							16864891 - S/. 259<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/08.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS PLIMCANA 2.0 LOW S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1125,15 +1137,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide45">
-					<div class="lookbook-detalle amarillo center-block">
+				<div class="slide amarillo2" id="slide45">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/14.jpg" alt="" class="img-responsive center-block">
-							<br>
-							REEBOK ZAPATILLA SKYSCAPE RUNAROUND 2.0<br>
-							16850633 - S/. 199
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							REEBOK ZAPATILLA SKYSCAPE<br>RUNAROUND 2.0<br>
+							16850633 - S/. 199<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/14.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK SKYSCAPE RUNAROUND 2.0 S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1147,14 +1159,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide46">
-					<div class="lookbook-detalle blanco center-block">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/18.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NIKE ZAPATILLA PRIMO COURT MID CVS PRINT<br>
-							16997187 - S/. 259
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NIKE ZAPATILLA PRIMO COURT<br>MID CVS PRINT<br>
+							16997187 - S/. 259<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/18.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE PRIMO COURT MID CVS PRINT S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1167,15 +1179,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide47">
-					<div class="lookbook-detalle beige center-block">
+				<div class="slide beige" id="slide47">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/21.jpg" alt="" class="img-responsive center-block">
-							<br>
-							DC ZAPATILLA TROSE TX<br>
-							16980205 - S/. 169
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							DC ZAPATILLA TROSE TX<br>
+							16980205 - S/. 169<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/21.jpg" data-texto="¡Me fascinaron estas zapatillas! DC ZAPATILLA TROSE TX S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1188,15 +1200,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide48">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide48">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/24.jpg" alt="" class="img-responsive center-block">
-							<br>
-							INDEX ZAPATILLA LAURA QUILT<br>
-							16668962 - S/. 69.90
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							INDEX ZAPATILLA LAURA QUILT<br>
+							16668962 - S/. 69.90<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/24.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX LAURA QUILT S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1209,15 +1221,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide49">
-					<div class="lookbook-detalle amarillo center-block">
+				<div class="slide amarillo2" id="slide49">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/28.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NEW BALANCE ZAPATILLA WL420DFA<br>
-							17000538 - S/. 239
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NEW BALANCE ZAPATILLA WL420DFA<br>
+							17000538 - S/. 239<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/28.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE WL420DFA S/.239 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1230,15 +1242,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide50">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide50">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/02.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CAT ZAPATILLA POE BURNISH BRIGHTS<br>
-							16996497 - S/. 379
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CAT ZAPATILLA POE<br>BURNISH BRIGHTS<br>
+							16996497 - S/. 379<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/02.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT ZAPATILLA POE BURNISH BRIGHTS S/.379 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1251,15 +1263,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide51">
-					<div class="lookbook-detalle morado center-block">
+				<div class="slide morado" id="slide51">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/05.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547259C<br>
-							16992986 - S/. 199
+							<img src="{{url()}}/img/lookbook/05.jpg" alt="" class="img-responsive pull-right">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CONVERSE ZAPATILLA CHUCK TAYLOR<br>ALL STAR 547259C<br>
+							16992986 - S/. 199<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/05jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1272,15 +1284,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide52">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide52">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/09.jpg" alt="" class="img-responsive center-block">
-							<br>
-							ADIDAS ZAPATILLA PLIMCANA LOW<br>
-							16748062 - S/. 249
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							ADIDAS ZAPATILLA PLIMCANA LOW<br>
+							16748062 - S/. 249<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/9.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS PLIMCANA LOW S/.249 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1293,15 +1305,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide53">
-					<div class="lookbook-detalle rosa center-block">
+				<div class="slide rosa" id="slide53">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/12.jpg" alt="" class="img-responsive center-block">
-							<br>
-							PUMA ZAPATILLA ELSU SL<br>
-							16995230 - S/. 149
+							<img src="{{url()}}/img/lookbook/12.jpg" alt="" class="img-responsive pull-left">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							PUMA ZAPATILLA ELSU SL<br>
+							16995230 - S/. 149<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/12.jpg" data-texto="¡Me fascinaron estas zapatillas! PUMA ZAPATILLA ELSU S/.149 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1315,14 +1327,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide54">
-					<div class="lookbook-detalle blanco center-block">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/15.jpg" alt="" class="img-responsive center-block">
-							<br>
-							REEBOK ZAPATILLA ROYAL COMPLETE<br>
-							16811802 - S/. 169
+							<img src="{{url()}}/img/lookbook/15.jpg" alt="" class="img-responsive pull-right">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							REEBOK ZAPATILLA ROYAL COMPLETE<br>
+							16811802 - S/. 169<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/15.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL COMPLETE S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1336,14 +1348,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide55">
-					<div class="lookbook-detalle blanco center-block">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/22.jpg" alt="" class="img-responsive center-block">
-							<br>
-							DC ZAPATILLA CRISIS<br>
-							16980150 - S/. 259
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							DC ZAPATILLA CRISIS<br>
+							16980150 - S/. 259<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/22.jpg" data-texto="¡Me fascinaron estas zapatillas! DC CRISIS S/.259 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1356,15 +1368,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide56">
-					<div class="lookbook-detalle morado center-block">
+				<div class="slide morado2" id="slide56">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/25.jpg" alt="" class="img-responsive center-block">
-							<br>
-							INDEX ZAPATILLA ARCHIE<br>
-							16567278 - S/. 59.90
+							<img src="{{url()}}/img/lookbook/25.jpg" alt="" class="img-responsive pull-right">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							INDEX ZAPATILLA ARCHIE<br>
+							16567278 - S/. 59.90<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/25.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX ARCHIE S/.59.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1377,15 +1389,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide57">
-					<div class="lookbook-detalle azul center-block">
+				<div class="slide azul" id="slide57">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/30.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NEW BALANCE ZAPATILLA NBL U410 CC<br>
-							16979924 - S/. 199
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NEW BALANCE ZAPATILLA NBL U410 CC<br>
+							16979924 - S/. 199<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/30.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE NBL U410 CC S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1398,15 +1410,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide58">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide azul" id="slide58">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/03.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CAT ZAPATILLA POE SIMPLY<br>
-							16996505 - S/. 379
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CAT ZAPATILLA POE SIMPLY<br>
+							16996505 - S/. 379<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/3.jpg" data-texto="¡Me fascinaron estas zapatillas! CAT POE SIMPLY S/.379 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1419,15 +1431,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide59">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide59">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/06.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CONVERSE ZAPATILLA CHUCK TAYLOR ALL STAR 547289C<br>
-							16993011 - S/. 189
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CONVERSE ZAPATILLA CHUCK TAYLOR<br>ALL STAR 547289C<br>
+							16993011 - S/. 189<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/06.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE CHUCK TAYLOR ALL STAR S/.189 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1440,15 +1452,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide60">
-					<div class="lookbook-detalle amarillo center-block">
+				<div class="slide amarillo2" id="slide60">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/10.jpg" alt="" class="img-responsive center-block">
-							<br>
-							ADIDAS ZAPATILLA M19480 ADRIA LOW<br>
-							16964229 - S/. 229
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							ADIDAS ZAPATILLA M19480<br>ADRIA LOW<br>
+							16964229 - S/. 229<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/10.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS ADRIA LOW S/.229 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1461,15 +1473,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide61">
-					<div class="lookbook-detalle rosa center-block">
+				<div class="slide rosa" id="slide61">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/16.jpg" alt="" class="img-responsive center-block">
-							<br>
-							REEBOK ZAPATILLA ROYAL CCJOGGER<br>
-							16663744 - S/. 169
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							REEBOK ZAPATILLA ROYAL CCJOGGER<br>
+							16663744 - S/. 169<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/16.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL CCJOGGER S/.169 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1482,15 +1494,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide62">
+				<div class="slide gris2" id="slide62">
 					<div class="lookbook-detalle blanco center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/19.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NIKE ZAPATILLA EASTHAM MID<br>
-							16997073 - S/. 299
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NIKE ZAPATILLA EASTHAM MID<br>
+							16997073 - S/. 299<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/19.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE EASTHAM MID S/.299 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1504,14 +1516,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide63">
-					<div class="lookbook-detalle blanco center-block center-block">
+					<div class="lookbook-detalle center-block center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/26.jpg" alt="" class="img-responsive center-block">
-							<br>
-							INDEX ZAPATILLA BRUNO<br>
-							16625172 - S/. 79.90
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							INDEX ZAPATILLA BRUNO<br>
+							16625172 - S/. 79.90<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/26.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX BRUNO S/.79.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1524,15 +1536,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide64">
-					<div class="lookbook-detalle amarillo center-block">
+				<div class="slide amarillo2" id="slide64">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/27.jpg" alt="" class="img-responsive center-block">
-							<br>
-							INDEX ZAPATILLA NADI<br>
-							16791638 - S/. 69.90
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							INDEX ZAPATILLA NADI<br>
+							16791638 - S/. 69.90<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/27.jpg" data-texto="¡Me fascinaron estas zapatillas! INDEX NADI S/.69.90 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1545,15 +1557,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide65">
-					<div class="lookbook-detalle rosa center-block">
+				<div class="slide rosa" id="slide65">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/07.jpg" alt="" class="img-responsive center-block">
-							<br>
-							CONVERSE ZAPATILLA STAR PLAYER 147461C<br>
-							16994733 - S/. 199
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							CONVERSE ZAPATILLA STAR PLAYER 147461C<br>
+							16994733 - S/. 199<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/07.jpg" data-texto="¡Me fascinaron estas zapatillas! CONVERSE STAR PLAYER S/.199 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1566,15 +1578,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide66">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide66">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/11.jpg" alt="" class="img-responsive center-block">
-							<br>
-							ADIDAS ZAPATILLA ZX-700 BELOW M19384<br>
-							16900821 - S/. 229
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							ADIDAS ZAPATILLA ZX-700 BELOW M19384<br>
+							16900821 - S/. 229<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/11.jpg" data-texto="¡Me fascinaron estas zapatillas! ADIDAS ZX-700 BELOW S/.229 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1587,15 +1599,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide67">
-					<div class="lookbook-detalle azul center-block">
+				<div class="slide azul" id="slide67">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/13.jpg" alt="" class="img-responsive center-block">
-							<br>
-							PUMA ZAPATILLA FTR TF-RACER<br>357624 05<br>
-							16991363 - S/. 189
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							PUMA ZAPATILLA FTR TF-RACER<br>357624 05<br>
+							16991363 - S/. 189<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/13.jpg" data-texto="¡Me fascinaron estas zapatillas! PUMA FTR TF-RACER S/.189 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1609,14 +1621,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide68">
-					<div class="lookbook-detalle blanco center-block">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
-							<img src="{{url()}}/img/lookbook/17.jpg" alt="" class="img-responsive center-block">
-							<br>
-							REEBOK ZAPATILLA ROYAL JENSTALL M46859<br>
-							16685797 - S/. 129
+							<img src="{{url()}}/img/lookbook/17.jpg" alt="" class="img-responsive pull-left">
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							REEBOK ZAPATILLA ROYAL JENSTALL M46859<br>
+							16685797 - S/. 129<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/17.jpg" data-texto="¡Me fascinaron estas zapatillas! REEBOK ROYAL JENSTALL S/.129 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1629,15 +1641,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide69">
-					<div class="lookbook-detalle rosa center-block">
+				<div class="slide rosa" id="slide69">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/20.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NIKE ZAPATILLA EASTHAM<br>
-							16997062 - S/. 289
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NIKE ZAPATILLA EASTHAM<br>
+							16997062 - S/. 289<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/20.jpg" data-texto="¡Me fascinaron estas zapatillas! NIKE EASTHAM S/.289 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1651,14 +1663,14 @@
 					<br><br><br>
 				</div>
 				<div class="slide" id="slide70">
-					<div class="lookbook-detalle blanco center-block">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/23.jpg" alt="" class="img-responsive center-block">
-							<br>
-							GOTCHA ZAPATILLA GT-1507<br>
-							16653936 - S/. 129
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							GOTCHA ZAPATILLA GT-1507<br>
+							16653936 - S/. 129<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/23.jpg" data-texto="¡Me fascinaron estas zapatillas! GOTCHA GT-1507 S/.129 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1671,15 +1683,15 @@
 					</div>
 					<br><br><br>
 				</div>
-				<div class="slide" id="slide71">
-					<div class="lookbook-detalle blanco center-block">
+				<div class="slide gris" id="slide71">
+					<div class="lookbook-detalle center-block">
 						<p class="text-center">
 							<img src="{{url()}}/img/lookbook/29.jpg" alt="" class="img-responsive center-block">
-							<br>
-							NEW BALANCE ZAPATILLA ML400SNF<br>
-							16986608 - S/. 159
 						</p>
+						<div class="clearfix"></div>
 						<p class="text-center">
+							NEW BALANCE ZAPATILLA ML400SNF<br>
+							16986608 - S/. 159<br>
 							<a href="#" class="compartir-facebook" data-imagen="{{url()}}/img/lookbook/29.jpg" data-texto="¡Me fascinaron estas zapatillas! NEW BALANCE ML400SNF S/.159 Descubre más en www.viernesdezapatillas.pe #Moda #Ripley #viernesdezapatillas">
 								<img src="{{url()}}/img/lookbook-compartir-facebook.png" alt="">
 							</a>
@@ -1696,10 +1708,10 @@
 			<!-- fin lookbook -->
 		</div>
 		<a id="bajar" href="#home">
-			<img src="{{url()}}/img/navegar-mobile.png" alt="" class="visible-xs">
+			<img src="{{url()}}/img/navegar-mobile.png" alt="">
 		</a>
 		<a id="subir" href="#">
-			<img src="{{url()}}/img/navegar-mobile.png" alt="" class="visible-xs">
+			<img src="{{url()}}/img/navegar-mobile.png" alt="">
 		</a>
 		<footer id="footer" class="container-fluid">
 			<section class="row">
