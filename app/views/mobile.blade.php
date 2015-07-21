@@ -1061,17 +1061,17 @@
 				</div>
 			</div>
 			<!-- fin top5 -->
-			<div class="section lookbook-intro">
-				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1">
-						<a href="#lookbook">
-							<img src="{{url()}}/img/lookbook-texto.png" alt="" class="img-responsive center-block">
-						</a>
-					</div>
-				</div>
-			</div>
 			<!-- lookbook -->
 			<div class="section lookbook">
+				<div class="slide lookbook-intro" id="slide101">
+					<div class="row">
+						<div class="col-xs-10 col-xs-offset-1">
+							<a href="#lookbook/1">
+								<img src="{{url()}}/img/lookbook-texto.png" alt="" class="img-responsive center-block">
+							</a>
+						</div>
+					</div>
+				</div>
 				<div class="slide amarillo" id="slide42">
 					<div class="lookbook-detalle center-block">
 						<p class="text-center">

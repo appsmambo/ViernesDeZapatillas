@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 	$('#fullpage').fullpage({
 		scrollOverflow:false,
-		anchors:['landing', 'home', 'campana', 'calendario', 'top5', 'lookbook-intro', 'lookbook'],
+		anchors:['landing', 'home', 'campana', 'calendario', 'top5', 'lookbook'],
 		onLeave:function(index, nextIndex, direction){
 			if (nextIndex === 1) {
 				$('#subir').fadeOut('fast');
@@ -44,7 +44,7 @@ $(document).ready(function() {
 					break;
 				case 6:  // lookbook intro
 					$('#subir').attr('href', '#top5');
-					$('#bajar').attr('href', '#lookbook');
+					$('#bajar').attr('href', '#');
 					$('#menu-lookbook').css('color', '#fff');
 					break;
 				case 7:  // lookbook
